@@ -37,5 +37,6 @@ export const StyledHeader = styled.header`
     transition: 0.1s;
     background-color: #37466b;
     color: white;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   }
 `;
