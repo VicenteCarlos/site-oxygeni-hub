@@ -7,23 +7,35 @@ export const StyledHeader = styled.header`
   align-items: center;
 
   .logo {
-    width: 300px;
-    margin-right: 150px;
+    width: 200px;
+    padding-right: 150px;
+    margin-left: 3%;
   }
 
-  nav .item {
-    color: #8d97ae;
-    text-decoration: none;
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    margin-left: 100px;
-    padding: 10px;
+  nav {
+    ul {
+      display: flex;
+
+      .item {
+        list-style: none;
+
+        a {
+          color: #8d97ae;
+          text-decoration: none;
+          font-family: "PT Sans", sans-serif;
+          font-weight: 400;
+          margin-left: 100px;
+          border-radius: 15px;
+          text-decoration: none;
+          padding: 10px;
+        }
+      }
+    }
   }
 
-  .item:hover {
-    transition: 0.5s;
+  ul .item a:hover {
+    transition: 0.1s;
     background-color: #37466b;
     color: white;
-    border-radius: 15px;
   }
 `;
