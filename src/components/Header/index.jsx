@@ -5,7 +5,7 @@ export const Header = () => {
     <StyledHeader>
       <img
         className="logo"
-        src="../../assets/img/oxygenimain.svg"
+        src="../assets/img/oxygenimain.svg"
         alt="OxygeniLogo"
       />
       <nav className="navegacao">

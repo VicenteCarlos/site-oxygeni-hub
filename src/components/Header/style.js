@@ -14,7 +14,6 @@ export const StyledHeader = styled.header`
   nav .item {
     color: #8d97ae;
     text-decoration: none;
-    margin: 20px;
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     margin-left: 100px;
