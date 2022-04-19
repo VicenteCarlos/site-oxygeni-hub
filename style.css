@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=PT+Sans&family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#1C2F5D;
+    height: 100px;
+    display:flex;
+    align-items:center;
+    
+}
+.logo{
+    width: 300px;
+    margin-right: 150px;
+}
+.item{
+    color:#8D97AE;
+    text-decoration: none;
+    margin:20px;
+    font-family: 'PT Sans', sans-serif;
+    padding: 13px;
+    font-weight:400;
+    margin-left:100px;
+    border-radius: 15px;
+    
+    
+    
+}
+.item:hover{
+    transition:0.5s;
+    background-color:#37466B;
+    color: white;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    
+}
+footer{
+    background-color:#1C2F5D;
+    padding: 20px;
+    display:flex;
+    
+}
+.logoRodape{
+    width:300px;
+    border-right: 3px solid;
+    color: white;
+}
+.redesocial{
+    width:100px;
+    margin-left:10px;
+    cursor:pointer;    
+}
+.conteudo{
+    display:flex;
+    justify-content: flex-end;
+    flex-flow: column nowrap;
+}
+.conteudo > p{
+    font-family: 'Roboto', sans-serif;
+    color:#FFFFFF;
+    font-size: 35px; 
+}
+.botao{
+    background-color: #EFF0F2;
+    padding:15px;
+    border:none;
+    width:150px;
+    border-radius:25px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:#1C2F5D;
+    cursor: pointer;
+}
+
+
+
