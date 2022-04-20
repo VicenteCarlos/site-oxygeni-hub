@@ -5,6 +5,7 @@ export const StyledFooter = styled.footer`
   padding: 20px;
   display: flex;
   height: 260px;
+  margin-top: 596px;
 
   .logoRodape {
     width: 600px;

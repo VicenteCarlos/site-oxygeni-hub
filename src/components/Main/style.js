@@ -33,6 +33,7 @@ export const StyledMain = styled.main`
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    padding-bottom: 150px;
 
     .content {
       display: flex;
@@ -75,6 +76,28 @@ export const StyledMain = styled.main`
 
     img {
       margin-left: 200px;
+    }
+  }
+
+  .s-3 {
+    background-color: #eff0f2;
+    padding: 15px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      color: #1c2f5d;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      margin-left: 3%;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    div {
+      display: flex;
     }
   }
 `;

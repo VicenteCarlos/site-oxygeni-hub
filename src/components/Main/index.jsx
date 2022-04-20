@@ -1,9 +1,11 @@
 import { StyledMain } from "./style";
+import { Cards } from "../Cards";
+import { Itens } from "../../js";
 
 export const Main = () => {
   return (
     <StyledMain>
-      <section class="s-1">
+      <section className="s-1">
         <img
           src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
           alt="oxygeni"
@@ -13,7 +15,7 @@ export const Main = () => {
           conhecimento e conexões.
         </p>
       </section>
-      <section class="s-2">
+      <section className="s-2">
         <div class="content">
           <div>
             <h2 className="h2-1">O que fazemos</h2>
@@ -32,6 +34,14 @@ export const Main = () => {
           alt="#"
           width="550px"
         />
+      </section>
+      <section className="s-3">
+        <h2>Nosso Projetos</h2>
+        <div>
+          {Itens.map((item) => (
+            <Cards item={item} />
+          ))}
+        </div>
       </section>
     </StyledMain>
   );

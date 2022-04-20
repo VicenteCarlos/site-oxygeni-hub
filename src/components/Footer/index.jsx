@@ -13,18 +13,15 @@ export const Footer = () => (
       <a href="https://www.linkedin.com/company/oxygeni-hub/" target="_blank">
         <img
           className="redesocial"
-          src="https://cdn.discordapp.com/attachments/691321430586949762/966127417108361236/iconelinkedln.png"
+          src="https://cdn.discordapp.com/attachments/691321430586949762/966139088195432458/iconelinkedln_1.png"
           alt="linkedinOxygeni"
         />
       </a>
-      <a
-        href="https://cdn.discordapp.com/attachments/691321430586949762/966126889649467402/iconeInstagram.png"
-        target="_blank"
-      >
+      <a href="https://www.instagram.com/oxygenihub/" target="_blank">
         {" "}
         <img
           className="redesocial"
-          src="https://cdn.discordapp.com/attachments/691321430586949762/966126889649467402/iconeInstagram.png"
+          src="https://cdn.discordapp.com/attachments/691321430586949762/966139777885806662/iconeinsta.png"
           alt="Instagram Oxygeni"
         />{" "}
       </a>
