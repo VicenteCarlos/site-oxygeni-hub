@@ -4,7 +4,10 @@ export const Main = () => {
   return (
     <StyledMain>
       <section class="s-1">
-        <img src="https://i.ibb.co/bXJHJPH/main-Oxygeni.png" alt="oxygeni" />
+        <img
+          src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
+          alt="oxygeni"
+        />
         <p>
           Iniciativa que surgiu para viabilizar projetos de inovação por meio do
           conhecimento e conexões.

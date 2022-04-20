@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledMain = styled.main`
+  height: 1200px;
+
   .s-1 {
     background-color: blue;
     color: white;
@@ -12,14 +14,16 @@ export const StyledMain = styled.main`
     align-items: center;
 
     img {
-      height: 100px;
+      width: 1000px;
+      height: 700px;
     }
 
     p {
       width: 410px;
-      margin-top: 30px;
       text-align: center;
       font-size: 18px;
+      position: relative;
+      bottom: 200px;
     }
   }
 

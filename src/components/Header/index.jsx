@@ -6,7 +6,7 @@ export const Header = () => {
     <StyledHeader>
       <img
         className="logo"
-        src="https://i.ibb.co/D7WS7YN/header-Oxygeni.png"
+        src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
         alt="OxygeniLogo"
       />
       <nav className="navegacao">

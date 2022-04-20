@@ -2,26 +2,37 @@ import { StyledFooter } from "./style";
 
 export const Footer = () => (
   <StyledFooter>
-    <img className="logoRodape" src="oxygenimain.svg" alt="logoOxygeni" />
-    <a href="https://www.linkedin.com/company/oxygeni-hub/" target="_blank">
+    <div className="imagem">
       <img
-        className="redesocial"
-        src="iconeLinkedln.svg"
-        alt="linkedin Oxygeni"
+        className="logoRodape"
+        src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
+        alt="logoOxygeni"
       />
-    </a>
-    <a href="https://www.instagram.com/oxygenihub/" target="_blank">
-      {" "}
-      <img
-        className="redesocial"
-        src="iconeInstagram.svg"
-        alt="Instagram Oxygeni"
-      />{" "}
-    </a>
+    </div>
+    <div className="redes">
+      <a href="https://www.linkedin.com/company/oxygeni-hub/" target="_blank">
+        <img
+          className="redesocial"
+          src="https://cdn.discordapp.com/attachments/691321430586949762/966127417108361236/iconelinkedln.png"
+          alt="linkedinOxygeni"
+        />
+      </a>
+      <a
+        href="https://cdn.discordapp.com/attachments/691321430586949762/966126889649467402/iconeInstagram.png"
+        target="_blank"
+      >
+        {" "}
+        <img
+          className="redesocial"
+          src="https://cdn.discordapp.com/attachments/691321430586949762/966126889649467402/iconeInstagram.png"
+          alt="Instagram Oxygeni"
+        />{" "}
+      </a>
+    </div>
     <div className="conteudo">
-      <p className="frase">Faça Parte</p>
-      <p className="frase">Faça Parte</p>
-      <p className="frase">Faça Parte</p>
+      <h2 className="frase">FAÇA PARTE</h2>
+      <h2 className="frase-2">FAÇA PARTE</h2>
+      <h2 className="frase-3">FAÇA PARTE</h2>
       <button className="botao">fale conosco!</button>
     </div>
   </StyledFooter>

@@ -7,9 +7,8 @@ export const StyledHeader = styled.header`
   align-items: center;
 
   .logo {
-    width: 200px;
-    padding-right: 150px;
-    margin-left: 3%;
+    width: 400px;
+    padding-right: 70px;
   }
 
   nav {
