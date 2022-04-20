@@ -1,54 +1,28 @@
 import { StyledHeader } from "./style";
 import { motion } from "framer-motion";
+import { Li } from "../../js";
+import { Link } from "react-router-dom";
 
-export const Header = () => {
-  return (
-    <StyledHeader>
-      <img
-        className="logo"
-        src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
-        alt="OxygeniLogo"
-      />
-      <nav className="navegacao">
-        <ul>
+export const Header = () => (
+  <StyledHeader>
+    <img
+      className="logo"
+      src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
+      alt="OxygeniLogo"
+    />
+    <nav className="navegacao">
+      <ul>
+        {Li.map((item, i) => (
           <motion.li
+            key={i}
             whileHover={{ scale: 1.4, originX: 0.4, originY: 0.8 }}
             className="item"
             href="#"
           >
-            <a href="#" target="_blank">
-              Home
-            </a>
+            <Link to={`/${item.route}`}>{item.text}</Link>
           </motion.li>
-          <motion.li
-            whileHover={{ scale: 1.4, originX: 0.4, originY: 0.8 }}
-            className="item"
-            href="#"
-          >
-            <a href="#" target="_blank">
-              Sobre Nós
-            </a>
-          </motion.li>
-          <motion.li
-            whileHover={{ scale: 1.4, originX: 0.4, originY: 0.8 }}
-            className="item"
-            href="#"
-          >
-            <a href="#" target="_blank">
-              Faça parte
-            </a>
-          </motion.li>
-          <motion.li
-            whileHover={{ scale: 1.4, originX: 0.4, originY: 0.8 }}
-            className="item"
-            href="#"
-          >
-            <a href="#" target="_blank">
-              Eventos
-            </a>
-          </motion.li>
-        </ul>
-      </nav>
-    </StyledHeader>
-  );
-};
+        ))}
+      </ul>
+    </nav>
+  </StyledHeader>
+);

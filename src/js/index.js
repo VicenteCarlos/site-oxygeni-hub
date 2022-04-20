@@ -18,3 +18,11 @@ export const Itens = [
     alt: "labsLogo",
   },
 ];
+
+export const Li = [
+  { text: "Home", route: "" },
+  { text: "Sobre Nós", route: "aboutus" },
+  { text: "Faça parte" },
+  { text: "Eventos" },
+  { text: "Oportunidades", route: "opportunities" },
+];
