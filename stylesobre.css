@@ -79,9 +79,11 @@
 
 }
 .imgeco{
-    width:900px;
-    height:700px;
-    margin-top:0;
+    width:400px;
+    height:300px;
+    
+    border: 8px solid #1C2F5D;
+    padding:20px;
     
 }
 .container3{
@@ -89,9 +91,32 @@
     align-items: center;
     justify-content:space-around;
     margin-top:150px;
+    
 }
+.container4{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top:230px;
+}
+.conteudo4{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:850px;
+    height:350px;
+    margin-bottom: 60px;
+}
+
+.conteudo4 div .p {
+    width: 600px
+}
+
 .imguni{
-    width:700px;
-    height:500px;
+    width:400px;
+    height:300px;
+    border: 8px solid #1C2F5D;
+    padding:20px;
 }
+
 
