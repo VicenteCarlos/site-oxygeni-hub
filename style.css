@@ -62,7 +62,11 @@ footer{
 .conteudo > p{
     font-family: 'Roboto', sans-serif;
     color:#FFFFFF;
-    font-size: 35px; 
+    font-size: 35px;
+    position: absolute;
+    top: 1350px;
+    left: 50px;
+    right: 50px; 
 }
 .botao{
     background-color: #EFF0F2;
