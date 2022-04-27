@@ -51,7 +51,7 @@ export const Home = () => (
           />
         </StyledSectionTwo>
         <StyledSectionThree>
-          <h2>Nosso Projetos</h2>
+          <h2>Nossos Produtos</h2>
           <div>
             {Itens.map((item, i) => (
               <Cards key={i} item={item} />
