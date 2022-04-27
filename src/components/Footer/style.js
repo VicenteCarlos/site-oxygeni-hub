@@ -14,24 +14,10 @@ export const StyledFooter = styled.footer`
     color: white;
   }
 
-  .redes {
+  nav {
     display: flex;
     align-items: flex-end;
     margin: 0 10px;
-
-    a {
-      margin: 0 -30px;
-
-      img[alt="linkedinOxygeni"] {
-        margin-left: 35px;
-      }
-
-      .redesocial {
-        width: 140px;
-        margin-left: 10px;
-        cursor: pointer;
-      }
-    }
   }
 
   .conteudo {
@@ -68,5 +54,14 @@ export const StyledFooter = styled.footer`
       cursor: pointer;
       font-weight: bold;
     }
+  }
+`;
+
+export const aLink = styled.a`
+  margin: 0 -30px;
+
+  img {
+    margin-left: 10px;
+    cursor: pointer;
   }
 `;
