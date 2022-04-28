@@ -36,27 +36,27 @@ export const Components = {
     squad_inovacao: [  
       {
         name: "Laura",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/968963795626106950/InShot_20220427_165500470.jpg",
       },
       {
         name: "Ziellen",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/968963286085292092/InShot_20220427_165300538.jpg",
       },
       {
         name: "Andreia",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/968963617384968222/InShot_20220427_165420307.jpg",
       },
       {
         name: "Rhanna",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/968962979079004210/InShot_20220427_165031179.jpg",
       },
       {
         name: "Claudinéia",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/968964153173762098/InShot_20220427_165626831.jpg",
       },
       {
         name: "Elizabeth",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/968963974701936720/InShot_20220427_165546214.jpg",
       }
     ],
     embaixadores:[
