@@ -62,7 +62,7 @@ export const Components = {
     embaixadores:[
       {
         name: "Elda",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/970079114910400582/elda.png",
         job: "Coord. CEUMA"
       },
       {
@@ -75,34 +75,34 @@ export const Components = {
     agentes:[
       {
         name: "Elves",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/970059851902357535/elves.png",
       },
       {
         name: "Ilgner",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/970059852149833818/ilgner.png",
       },
       {
         name: "Vitória",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/970059853949202503/vitoria.png",
       },
       {
         name: "Daniel",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/970059851633950781/daniel.png",
       },
       {
         name: "Rafael",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/970059852485374032/rafael.png",
       },
       {
         name: "Vicente",
-        img: "",
+        img: "https://cdn.discordapp.com/attachments/651404729766772763/970059853332611082/vicente.png",
       },
     ],
     apoio:[
       {
         title: "CONEX",
-        imag:"",
-        text:"",
+        imag:"https://cdn.discordapp.com/attachments/691321430586949762/966142908933759036/conexLogo.png",
+        text:"Ambiente Digital de negócios entre Startups, Empresas, Mentores, Talentos e Programas de capacitações.",
         alt:"conexLogo"
       },
   ]
