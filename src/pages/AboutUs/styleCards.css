@@ -1,0 +1,17 @@
+ *{
+     box-sizing: border-box;
+
+ }
+  :root{
+      font: size 62%; /* 10px = 1rem*/
+  }
+ .cardsCeuma .upCards > img, .downCards > img{
+    width: 18rem;
+    margin:2.0rem;
+    border: solid 5px #1C2F5D;
+    padding: 10px;
+    background-color:#1C2F5D ;
+    position: relative;
+    
+
+}
