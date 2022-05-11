@@ -1,5 +1,6 @@
 import { StyledMain } from "./style";
 import { motion } from "framer-motion";
+// import {} from "../../components"
 
 const AboutUs = () => (
     <StyledMain as={motion.main} initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
