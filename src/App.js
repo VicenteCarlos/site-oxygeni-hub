@@ -1,13 +1,14 @@
-import { Header } from "./components/Header";
+import { Header, Footer } from "./components/";
 import { Rotas } from "./routes";
 import { GlobalStyle } from "./style";
-import { Footer } from "./components/Footer";
 
-export const App = () => (
-  <>
-    <GlobalStyle />
-    <Header />
-    <Rotas />
-    <Footer />
-  </>
-);
+export const App = () => {
+  return (
+    <>
+      <GlobalStyle />
+      <Header />
+      <Rotas />
+      <Footer />
+    </>
+  );
+};
