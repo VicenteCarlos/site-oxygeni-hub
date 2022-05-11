@@ -1,7 +1,9 @@
 import { Main } from "../../components/Main";
 
-export const Home = () => (
+const Home = () => (
   <>
     <Main />
   </>
 );
+
+export { Home }
