@@ -1,7 +1,7 @@
 import { StyledMain } from "./style";
 import { motion } from "framer-motion";
 
-export const AboutUs = () => (
+const AboutUs = () => (
     <StyledMain as={motion.main} initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
         <section class="container">    
           <div class = "conteudo">
@@ -34,3 +34,5 @@ export const AboutUs = () => (
         </section>   
     </StyledMain> 
 );
+
+export { AboutUs }
