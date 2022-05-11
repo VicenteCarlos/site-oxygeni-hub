@@ -1,7 +1,6 @@
-import { Header } from "./components/Header";
+import { Header, Footer } from "./components/";
 import { Rotas } from "./routes";
 import { GlobalStyle } from "./style";
-import {Footer} from "./components/Footer"
 
 export const App = () => {
   return (
