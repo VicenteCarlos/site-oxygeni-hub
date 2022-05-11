@@ -6,8 +6,8 @@ height: 1800px;
 .container{
     display:flex;
     justify-content: space-around;
-    border-top: 20px;
-    margin:110px 20px 20px 20px;
+    border-top: 2rem;
+    margin:10rem 2rem 2rem 2rem;
 
     .conteudo{
         display:flex;
@@ -17,9 +17,9 @@ height: 1800px;
 
         .titulo{
             font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
+            font-size: 3rem;
             color:#1C2F5D;
-            padding:25px;
+            padding:2rem;
             align-items: center;
         }   
 
@@ -27,20 +27,20 @@ height: 1800px;
         .texto{
             font-family: 'Source Sans Pro', sans-serif;
             color:#1C2F5D;
-            font-size:28px;
-            margin:10px;
-            width:480px;
-            padding: 9px;
-            border-radius: 15px;
+            font-size:2rem;
+            margin:1rem;
+            width:48rem;
+            padding: 0.9rem;
+            border-radius: 1.5rem;
             text-align: center;
         }
     }
 
     .imgmain{
-        width:600px;
-        height:400px;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        width:30rem;
+        height:20rem;
+        border: 0.5rem solid #1C2F5D;
+        padding:2rem;
     }  
     
 }
@@ -49,13 +49,13 @@ height: 1800px;
     display:flex;
     align-items: center;
     justify-content:space-around;
-    margin-top:150px;
+    margin-top:1.5rem;
 
     .titulo{
             font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
+            font-size: 3rem;
             color:#1C2F5D;
-            padding:25px;
+            padding:1rem;
             align-items: center;
         }   
 
@@ -63,20 +63,20 @@ height: 1800px;
     .texto{
         font-family: 'Source Sans Pro', sans-serif;
         color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:480px;
-        padding: 9px;
-        border-radius: 15px;
+        font-size:2rem;
+        margin:1rem;
+        width:28rem;
+        padding: 0.9rem;
+        border-radius: 1.5rem;
         text-align: center;
     }
 
     .imgtime{
-        width:450px;
-        height:400px;
-        margin:20px 20px 20px 0;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        width:30rem;
+        height:20rem;
+        margin:2rem 2rem 2rem 0;
+        border: 0.5rem solid #1C2F5D;
+        padding:2rem;
     }
 
     .conteudo2 {
@@ -90,13 +90,13 @@ height: 1800px;
     display:flex;
     align-items: center;
     justify-content:space-around;
-    margin-top:150px;
+    margin-top:15rem;
 
     .titulo{
             font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
+            font-size: 3rem;
             color:#1C2F5D;
-            padding:25px;
+            padding:2.5rem;
             align-items: center;
         }   
 
@@ -104,19 +104,19 @@ height: 1800px;
     .texto{
         font-family: 'Source Sans Pro', sans-serif;
         color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:480px;
-        padding: 9px;
-        border-radius: 15px;
+        font-size:2.8rem;
+        margin:1rem;
+        width:48rem;
+        padding: 0.9rem;
+        border-radius: 1.5rem;
         text-align: center;
     }
 
     .imgeco{
-        width:400px;
-        height:300px;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        width:40rem;
+        height:30rem;
+        border: 0.8rem solid #1C2F5D;
+        padding:2rem;
     }
 }
 
@@ -124,20 +124,20 @@ height: 1800px;
     display:flex;
     align-items: center;
     justify-content:space-around;
-    margin-top:230px;
+    margin-top:23rem;
 
     .imguni{
-        width:400px;
-        height:300px;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        width:20rem;
+        height:15rem;
+        border: 0.8rem solid #1C2F5D;
+        padding:2rem;
     }
     
     .titulo{
         font-family: 'PT Sans', sans-serif;
-        font-size: 45px;
+        font-size: 3rem;
         color:#1C2F5D;
-        padding:25px;
+        padding:2.5rem;
         align-items: center;
     }   
 
@@ -145,11 +145,11 @@ height: 1800px;
     .texto{
         font-family: 'Source Sans Pro', sans-serif;
         color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:880px;
-        padding: 9px;
-        border-radius: 15px;
+        font-size:1.5rem;
+        margin:1rem;
+        width:40rem;
+        padding: 0.9rem;
+        border-radius: 1.5rem;
         text-align: center;
     }
 
@@ -157,13 +157,13 @@ height: 1800px;
         display:flex;
         flex-direction: column;
         align-items:center;
-        width:850px;
-        height:350px;
-        margin-bottom: 60px;
+        width:85rem;
+        height:35rem;
+        margin-bottom: 6rem;
 
         div {
             p {
-                width: 600px;
+                width: 60rem;
             }
         }
 
