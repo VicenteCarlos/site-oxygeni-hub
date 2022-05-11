@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Li } from "../../js";
 import { Link } from "react-router-dom";
 
-export const Header = () => (
+const Header = () => (
   <StyledHeader>
     <img
       className="logo"
@@ -26,3 +26,5 @@ export const Header = () => (
     </nav>
   </StyledHeader>
 );
+
+export { Header }
