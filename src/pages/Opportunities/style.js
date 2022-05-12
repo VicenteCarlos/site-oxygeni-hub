@@ -1,97 +1,175 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const StyledMain = styled.main`
   height: 850px;
 
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  body {
+    font-size: 62.5%;
+  }
 
-   h2 {
-     color:#1c2f5d;
-     font-size: 50px;
-     text-align: center;
-     margin-top: 70px;
-     font-family: 'Plus Jakarta Sans', sans-serif;
-   }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 
-   img {
-     margin-top: 20px;
-     width: 600px;
-   }
+    h2 {
+      color: #1c2f5d;
+      font-size: 190%;
+      text-align: center;
+      margin-top: 70px;
+      font-family: "Plus Jakarta Sans", sans-serif;
+    }
 
-   .s-1 {
-       border-bottom: 15px dashed #1C2F5D;
-       border-radius: 15px;
+    img {
+      width: 20rem;
+      position: relative;
+      margin: 0 130%;
+    }
 
-        div {
+    .s-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      width: 10rem;
+      .icons {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        width: 20rem;
+        flex-wrap: wrap;
+
+      
+        figcaption {
+          display: flex;
+          justify-content: center;
+          border-radius:0.5rem;
+          padding: 0.6rem;
+          color:white;
+          font-family:'DM Sans', sans-serif;;
+        }
+
+        section {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 5rem;
+          font-size: 0.9rem;
+          font-weight: 900;
+
+          figure {
+           
             .js {
-            color: #F7DF1E;
-            width: 100px;
-            height: 150px;
+              color: #FFA500;
+              width: 3rem;
+              height: 50px;
             }
-
+            .java {
+              color: #f25c39;
+              width: 3rem;
+              height: 50px;
+            }
             .html5 {
-            color: #FF5722;
-            width: 100px;
-            height: 150px;
+              color: #ff5722;
+              width: 3rem;
+              height: 50px;
             }
 
             .css3 {
-            color: #0070ba;
-            width: 100px;
-            height: 150px;
+              color: #0070ba;
+              width: 3rem;
+              height: 50px;
             }
 
             .python3 {
-            color: #6B68CF;
-            width: 100px;
-            height: 150px;
+              color: #6A5ACD;
+              width: 3rem;
+              height: 50px;
             }
 
             .react {
-            color: #5ccfee;
-            width: 100px;
-            height: 150px;
+              color: #5ccfee;
+              width: 3rem;
+              height: 50px;
             }
 
             .angular {
-            color: #d62f34;
-            width: 100px;
-            height: 150px;
+              color: #d62f34;
+              width: 3rem;
+              height: 50px;
             }
 
             .mysql {
-            width: 100px;
-            height: 150px;
+              width: 3rem;
+              height: 50px;
             }
 
-            .java {
-            color: #F25C39;
-            width: 100px;
-            height: 150px;
-            }
+            
+          }
         }
-   }
+      }
+      .nameBackGroundColorCSS {
+        background-color: #0070ba;
+      }
+      .nameBackGroundColorJS {
+        background-color: #FFA500;
+      }
+      .nameBackGroundColorPython {
+        background-color: #6A5ACD;
+      }
+      .nameBackGroundColorReact {
+        background-color: #61dbfb;
+      }
+      .nameBackGroundColorAngular {
+        background-color: red;
+      }
+      .nameBackGroundColorMySql {
+        background-color: #0075bf;
+      }
+      .nameBackGroundColorJava {
+        background-color: #f89820;
+      }
+      .nameBackGroundColorHTML {
+        background-color: #e34c26;
+      }
+    }
 
-   .s-2 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .s-2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
 
-        img {
-            width: 700px;
-            height: 500px;
-        }
+      img {
+        width: 700px;
+        height: 500px;
+      }
 
-        p {
-            font-size: 30px;
-            color: #1c2f5d;
-            width: 400px;
-            text-align: center;
-        }
-   }
-}
-`
+      p {
+        font-size: 30px;
+        color: #1c2f5d;
+        width: 100%;
+        text-align: center;
+      }
+      
+      @media (min-width:320px) {
+         
+      p {
+        font-size: 1.4rem;
+        color: #1c2f5d;
+        width: 100%;
+        margin-top:34px;
+        text-align: center;
+      }
+      }
+       
+      
+    }
+
+  }
+`;

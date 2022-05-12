@@ -5,9 +5,9 @@ import { Footer } from "./components/Footer";
 
 export const App = () => (
   <>
-    <GlobalStyle />
-    <Header />
+     <GlobalStyle />
+    {/* <Header />  */}
     <Rotas />
-    <Footer />
+    {/* <Footer />  */}
   </>
 );
