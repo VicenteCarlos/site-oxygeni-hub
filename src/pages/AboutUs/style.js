@@ -5,10 +5,11 @@ height: 1800px;
 
 .container{
     display:flex;
+    flex-direction: column;
     justify-content: space-around;
-    border-top: 20px;
+    border-top: 10px;
     margin:110px 20px 20px 20px;
-
+    align-items: center;
     .conteudo{
         display:flex;
         flex-direction: column;
@@ -17,9 +18,9 @@ height: 1800px;
 
         .titulo{
             font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
+            font-size: 25px;
             color:#1C2F5D;
-            padding:25px;
+            padding:10px;
             align-items: center;
         }   
 
@@ -27,9 +28,9 @@ height: 1800px;
         .texto{
             font-family: 'Source Sans Pro', sans-serif;
             color:#1C2F5D;
-            font-size:28px;
-            margin:10px;
-            width:480px;
+            font-size:18px;
+            margin:8px;
+            width:180px;
             padding: 9px;
             border-radius: 15px;
             text-align: center;
@@ -37,25 +38,26 @@ height: 1800px;
     }
 
     .imgmain{
-        width:600px;
-        height:400px;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        width:210px;
+        height:180px;
+        border: 3px solid #1C2F5D;
+        padding:10px;
     }  
     
 }
 
 .container2 { 
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content:space-around;
     margin-top:150px;
 
     .titulo{
             font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
+            font-size: 25px;
             color:#1C2F5D;
-            padding:25px;
+            padding:15px;
             align-items: center;
         }   
 
@@ -63,20 +65,20 @@ height: 1800px;
     .texto{
         font-family: 'Source Sans Pro', sans-serif;
         color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:480px;
+        font-size:18px;
+        margin:5px;
+        width:180px;
         padding: 9px;
         border-radius: 15px;
         text-align: center;
     }
 
     .imgtime{
-        width:450px;
-        height:400px;
+        width:200px;
+        height:150px;
         margin:20px 20px 20px 0;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        border: 3px solid #1C2F5D;
+        padding:10px;
     }
 
     .conteudo2 {
@@ -88,34 +90,35 @@ height: 1800px;
 
 .container3{
     display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:space-around;
-    margin-top:150px;
+    justify-content:center;
+    margin-top:15px;
 
     .titulo{
             font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
+            font-size: 21px;
             color:#1C2F5D;
-            padding:25px;
-            align-items: center;
+            padding:10px;
+           
         }   
 
         
     .texto{
         font-family: 'Source Sans Pro', sans-serif;
         color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:480px;
+        font-size:18px;
+        margin:5px;
+        width:200px;
         padding: 9px;
         border-radius: 15px;
         text-align: center;
     }
 
     .imgeco{
-        width:400px;
-        height:300px;
-        border: 8px solid #1C2F5D;
+        width:200px;
+        height:150px;
+        border: 3px solid #1C2F5D;
         padding:20px;
     }
 }
@@ -123,21 +126,22 @@ height: 1800px;
 .container4 {
     display:flex;
     align-items: center;
+    flex-direction: column;
     justify-content:space-around;
-    margin-top:230px;
+    margin-top:130px;
 
     .imguni{
-        width:400px;
-        height:300px;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        width:200px;
+        height:150px;
+        border: 3px solid #1C2F5D;
+        padding:10px;
     }
     
     .titulo{
         font-family: 'PT Sans', sans-serif;
-        font-size: 45px;
+        font-size: 23px;
         color:#1C2F5D;
-        padding:25px;
+        padding:15px;
         align-items: center;
     }   
 
@@ -145,9 +149,9 @@ height: 1800px;
     .texto{
         font-family: 'Source Sans Pro', sans-serif;
         color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:880px;
+        font-size:18px;
+        margin:5px;
+        width:280px;
         padding: 9px;
         border-radius: 15px;
         text-align: center;
@@ -157,13 +161,13 @@ height: 1800px;
         display:flex;
         flex-direction: column;
         align-items:center;
-        width:850px;
-        height:350px;
-        margin-bottom: 60px;
+        width:200px;
+        height:150px;
+        margin-bottom: 20px;
 
         div {
             p {
-                width: 600px;
+                width: 200px;
             }
         }
 
