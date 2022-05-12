@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const ContentSquad = styled.div`
-  margin: 5rem 5rem 5rem 5rem;
+  margin: 2rem auto 1rem auto;
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #1c2f5d;
   color: white;
@@ -17,7 +17,7 @@ export const ContentSquad = styled.div`
   cursor: pointer;
   font-size: 62.5%;
   height: auto;
-  width: 90vw;
+  width: 10rem;
   h3 {
     display: flex;
     align-items: center;
@@ -35,14 +35,13 @@ export const ContentSquad = styled.div`
     text-align: center;
 
     p {
-      font-size: 1.8rem;
+      font-size: 3rem;
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     }
 
     img {
         width: 10rem;
-        display: block;
     }
   }
 `;

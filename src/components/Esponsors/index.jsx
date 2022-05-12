@@ -1,13 +1,14 @@
-
+import {ContentEsponsor} from "./style"
 
 const Esponsor = ({ item }) => (
-  <div>
+  <ContentEsponsor>
     <h3>{item.title}</h3>
     <div>
+      
       <img src={item.img} alt={item.alt} />
-      <p>{item.text}</p>
+       <p>{item.text}</p>
     </div>
-    </div>
+    </ContentEsponsor>
 );
 
 export { Esponsor };

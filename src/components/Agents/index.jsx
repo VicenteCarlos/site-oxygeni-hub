@@ -1,13 +1,14 @@
+import {ContentAgents} from "./style"
 const Agent = ({item}) => {
     return(
     
-    <div>
+    <ContentAgents>
         
        <div>
            <img src={item.img} alt={item.alt} />
            <h2>{item.name}</h2>
        </div>        
-    </div>
+    </ContentAgents>
     )
 }
 
