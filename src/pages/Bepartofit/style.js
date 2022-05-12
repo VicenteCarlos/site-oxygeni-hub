@@ -18,6 +18,8 @@ const SectionInfos = styled.section`
 
     p {
         line-height: 28px;
+        width: 15rem;
+        margin: 0 auto;
     }
 `
 

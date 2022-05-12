@@ -25,8 +25,6 @@ const StyledForm = styled.form`
         background-color: white;
         color: #294079;
     }
-
-    label {}
 `
 
 export { StyledForm }

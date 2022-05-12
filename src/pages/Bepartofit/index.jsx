@@ -1,5 +1,6 @@
 import { Form } from "../../components";
 import { StyledMain, SectionInfos } from "./style"
+import { ThemeProvider } from "styled-components";
 
 const Bepartofit = () => (
   <StyledMain>
