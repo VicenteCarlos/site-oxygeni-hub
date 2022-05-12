@@ -25,6 +25,10 @@ const StyledForm = styled.form`
         background-color: white;
         color: #294079;
     }
+
+    @media (min-width: 768px) {
+        width: 50vw;
+    }
 `
 
 export { StyledForm }

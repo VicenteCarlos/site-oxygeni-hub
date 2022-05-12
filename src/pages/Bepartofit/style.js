@@ -21,6 +21,16 @@ const SectionInfos = styled.section`
         width: 15rem;
         margin: 0 auto;
     }
+
+    @media (min-width: 768px) {
+        h2 {
+            font-size: 35px;
+        }
+
+        p {
+            width: 500px;
+        }
+    }
 `
 
 export { StyledMain, SectionInfos }
