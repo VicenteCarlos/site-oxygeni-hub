@@ -24,7 +24,7 @@ export const Itens = [
 export const Li = [
   { text: "Home", route: "" },
   { text: "Sobre Nós", route: "aboutus" },
-  { text: "Faça parte" },
+  { text: "Faça parte", route: "bepartofit" },
   { text: "Eventos" },
   { text: "Oportunidades", route: "opportunities" },
 ];
