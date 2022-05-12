@@ -6,9 +6,9 @@ export const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Header />
+      {/* <Header /> */}
       <Rotas />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
