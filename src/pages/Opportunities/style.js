@@ -44,14 +44,13 @@ export const StyledMain = styled.main`
         width: 20rem;
         flex-wrap: wrap;
 
-      
         figcaption {
           display: flex;
           justify-content: center;
-          border-radius:0.5rem;
+          border-radius: 0.5rem;
           padding: 0.6rem;
-          color:white;
-          font-family:'DM Sans', sans-serif;;
+          color: white;
+          font-family: "DM Sans", sans-serif;
         }
 
         section {
@@ -61,11 +60,21 @@ export const StyledMain = styled.main`
           width: 5rem;
           font-size: 0.9rem;
           font-weight: 900;
+          margin: 0 20px;
+
+          @media (min-width: 720px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 3rem;
+            font-size: 0.9rem;
+            font-weight: 900;
+            margin: 0 20px;
+          }
 
           figure {
-           
             .js {
-              color: #FFA500;
+              color: #ffa500;
               width: 3rem;
               height: 50px;
             }
@@ -87,7 +96,7 @@ export const StyledMain = styled.main`
             }
 
             .python3 {
-              color: #6A5ACD;
+              color: #6a5acd;
               width: 3rem;
               height: 50px;
             }
@@ -109,7 +118,16 @@ export const StyledMain = styled.main`
               height: 50px;
             }
 
-            
+            .python3,
+            .angular,
+            .react {
+              margin: 20px 0;
+            }
+
+            .mysql,
+            .java {
+              margin-top: 10px;
+            }
           }
         }
       }
@@ -117,10 +135,10 @@ export const StyledMain = styled.main`
         background-color: #0070ba;
       }
       .nameBackGroundColorJS {
-        background-color: #FFA500;
+        background-color: #ffa500;
       }
       .nameBackGroundColorPython {
-        background-color: #6A5ACD;
+        background-color: #6a5acd;
       }
       .nameBackGroundColorReact {
         background-color: #61dbfb;
@@ -156,20 +174,16 @@ export const StyledMain = styled.main`
         width: 100%;
         text-align: center;
       }
-      
-      @media (min-width:320px) {
-         
-      p {
-        font-size: 1.4rem;
-        color: #1c2f5d;
-        width: 100%;
-        margin-top:34px;
-        text-align: center;
-      }
-      }
-       
-      
-    }
 
+      @media (min-width: 320px) {
+        p {
+          font-size: 1.4rem;
+          color: #1c2f5d;
+          width: 100%;
+          margin-top: 34px;
+          text-align: center;
+        }
+      }
+    }
   }
 `;
