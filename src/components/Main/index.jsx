@@ -3,7 +3,7 @@ import { Cards } from "../Cards";
 import { Itens } from "../../js";
 import { AnimatePresence, motion } from "framer-motion";
 
-export const Main = () => {
+const Main = () => {
   return (
     <AnimatePresence>
       <StyledMain
@@ -55,3 +55,5 @@ export const Main = () => {
     </AnimatePresence>
   );
 };
+
+export { Main }

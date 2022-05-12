@@ -1,6 +1,6 @@
 import { StyledFooter } from "./style";
 
-export const Footer = () => (
+const Footer = () => (
   <StyledFooter>
     <div className="imagem">
       <img
@@ -34,3 +34,5 @@ export const Footer = () => (
     </div>
   </StyledFooter>
 );
+
+export { Footer }

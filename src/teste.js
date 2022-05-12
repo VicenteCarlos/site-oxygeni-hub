@@ -1,0 +1,1 @@
+console.log("Opaaa".replace(/[a]/, b))

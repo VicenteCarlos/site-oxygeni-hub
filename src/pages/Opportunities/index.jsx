@@ -2,8 +2,7 @@ import { StyledMain } from "./style";
 import { DiJsBadge, DiJavascript, DiCss3, DiPython, DiReact, DiAngularSimple, DiMysql, DiJava } from "react-icons/di";
 import {motion} from "framer-motion"
 
-
-export const Opportunities = () => (
+const Opportunities = () => (
   <StyledMain as={motion.main} initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
      <div className="container">
         <h2>Construa as suas habilidades de desenvolvedor</h2>
@@ -22,5 +21,7 @@ export const Opportunities = () => (
      
   </StyledMain>
 );
+
+export { Opportunities }
 
 
