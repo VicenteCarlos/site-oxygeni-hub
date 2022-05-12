@@ -8,7 +8,7 @@ export const App = () => {
       <GlobalStyle />
       <Header />
       <Rotas />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

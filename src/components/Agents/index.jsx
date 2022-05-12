@@ -1,4 +1,4 @@
-const SquadCard = ({item}) => {
+const Agent = ({item}) => {
     return(
     
     <div>
@@ -12,4 +12,4 @@ const SquadCard = ({item}) => {
 }
 
 
-export {SquadCard}
+export {Agent}

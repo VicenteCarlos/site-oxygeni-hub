@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContentSquad = styled.div`
+export const ContentAgents = styled.div`
   margin: 5rem 5rem 5rem 5rem;
 
   display: flex;

@@ -1,13 +1,17 @@
 import styled from "styled-components"
 
 export const StyledMain = styled.main`
-height: 1800px;
-
+height:100vh;
+width: 80vw;
+:root{
+    font-size: 62.5%;
+}
 .container{
     display:flex;
     justify-content: space-around;
-    border-top: 20px;
-    margin:110px 20px 20px 20px;
+    align-items: center;
+    border-top: 2rem;
+    margin:10rem auto 2rem auto;
 
     .conteudo{
         display:flex;
@@ -17,9 +21,9 @@ height: 1800px;
 
         .titulo{
             font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
+            font-size: 4.5rem;
             color:#1C2F5D;
-            padding:25px;
+            padding:2.5rem;
             align-items: center;
         }   
 
@@ -27,76 +31,55 @@ height: 1800px;
         .texto{
             font-family: 'Source Sans Pro', sans-serif;
             color:#1C2F5D;
-            font-size:28px;
-            margin:10px;
-            width:480px;
-            padding: 9px;
-            border-radius: 15px;
+            font-size:2.8rem;
+            margin:1rem;
+            width:48rem;
+            padding: 0.9rem;
+            border-radius: 1.5rem;
             text-align: center;
         }
     }
 
     .imgmain{
-        width:600px;
-        height:400px;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        width:40rem;
+        height:30rem;
+        margin: 2rem 15rem 2rem auto;
+        border: 0.8rem solid #1C2F5D;
+        padding-block:10rem;
     }  
     
 }
 
 .container2 { 
     display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:space-around;
-    margin-top:150px;
+    justify-content:center;
+    
+    margin: 15rem auto 5rem auto ;
+    
+        h3 {
+    font-size: 2.7rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
 
-    .titulo{
-            font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
-            color:#1C2F5D;
-            padding:25px;
-            align-items: center;
-        }   
-
-        
-    .texto{
-        font-family: 'Source Sans Pro', sans-serif;
-        color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:480px;
-        padding: 9px;
-        border-radius: 15px;
-        text-align: center;
-    }
-
-    .imgtime{
-        width:450px;
-        height:400px;
-        margin:20px 20px 20px 0;
-        border: 8px solid #1C2F5D;
-        padding:20px;
-    }
-
-    .conteudo2 {
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-    }
+   
 }
 
 .container3{
     display:flex;
     align-items: center;
     justify-content:space-around;
-    margin-top:150px;
+    margin-top:15rem;
 
     .titulo{
             font-family: 'PT Sans', sans-serif;
-            font-size: 45px;
+            font-size: 4.5rem;
             color:#1C2F5D;
-            padding:25px;
+            padding:2.5rem;
             align-items: center;
         }   
 
@@ -104,23 +87,24 @@ height: 1800px;
     .texto{
         font-family: 'Source Sans Pro', sans-serif;
         color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:480px;
-        padding: 9px;
-        border-radius: 15px;
+        font-size:2.8rem;
+        margin:1rem;
+        width:48rem;
+        padding: 0.9rem;
+        border-radius: 1.5rem;
         text-align: center;
     }
 
     .imgeco{
-        width:400px;
-        height:300px;
-        border: 8px solid #1C2F5D;
-        padding:20px;
+        width:40rem;
+        height:30rem;
+        border: 0.8rem solid #1C2F5D;
+        padding:2rem
     }
 }
 
 .container4 {
+   width: auto;
     display:flex;
     align-items: center;
     justify-content:space-around;
@@ -145,25 +129,26 @@ height: 1800px;
     .texto{
         font-family: 'Source Sans Pro', sans-serif;
         color:#1C2F5D;
-        font-size:28px;
-        margin:10px;
-        width:880px;
-        padding: 9px;
-        border-radius: 15px;
+        font-size:2rem;
+        margin:1rem;
+        width:88rem;
+        padding: 0.9rem;
+        border-radius: 1.5rem;
         text-align: center;
     }
 
     .conteudo4 {
+       width: 80%;
         display:flex;
         flex-direction: column;
         align-items:center;
-        width:850px;
-        height:350px;
-        margin-bottom: 60px;
+        width:85rem;
+        height:35rem;
+        margin-bottom: 6rem;
 
         div {
             p {
-                width: 600px;
+                width: 60rem;
             }
         }
 
