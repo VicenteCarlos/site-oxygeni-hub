@@ -29,35 +29,35 @@ export const Opportunities = () => (
           <section>
             <figure>
               <DiJsBadge className="js" />
-              <figcaption className="nameBackGroundColorJS" >JavaScript</figcaption>
+              <figcaption id="nameBackGroundColorJS" >JavaScript</figcaption>
             </figure>
           </section>
 
           <section>
             <figure>
              <DiJavascript className="html5" />
-              <figcaption className="nameBackGroundColorHTML">HTML5</figcaption>
+              <figcaption id="nameBackGroundColorHTML">HTML5</figcaption>
             </figure>
           </section>
           
           <section>
             <figure>
                <DiCss3 className="css3" />
-              <figcaption className="nameBackGroundColorCSS">CSS3</figcaption>
+              <figcaption id="nameBackGroundColorCSS">CSS3</figcaption>
             </figure>
           </section>
 
           <section>
             <figure>
               <DiPython className="python3" />
-              <figcaption className="nameBackGroundColorPython">Python</figcaption>
+              <figcaption id="nameBackGroundColorPython">Python</figcaption>
             </figure>
           </section>
 
           <section>
             <figure>
               <DiReact className="react" />
-              <figcaption className="nameBackGroundColorReact" >React</figcaption>
+              <figcaption id="nameBackGroundColorReact" >React</figcaption>
             </figure>
           </section>
 
@@ -65,7 +65,7 @@ export const Opportunities = () => (
           <section>
             <figure>
               <DiAngularSimple className="angular" />
-              <figcaption className="nameBackGroundColorAngular">Angular</figcaption>
+              <figcaption id="nameBackGroundColorAngular">Angular</figcaption>
             </figure>
           </section>
 
@@ -73,14 +73,14 @@ export const Opportunities = () => (
           <section>
             <figure>
               <DiMysql className="mysql" />
-              <figcaption className="nameBackGroundColorMySql">MySql</figcaption>
+              <figcaption id="nameBackGroundColorMySql">MySql</figcaption>
             </figure>
           </section>
 
           <section>
             <figure>
               <DiJava className="java" />
-              <figcaption className="nameBackGroundColorJava">Java</figcaption>
+              <figcaption id="nameBackGroundColorJava">Java</figcaption>
             </figure>
           </section>
         </div>
@@ -88,8 +88,9 @@ export const Opportunities = () => (
       <section className="s-2">
         {/* <img src="https://cdn.discordapp.com/attachments/651404729766772763/966420361044430928/img.png" alt="espaços" /> */}
         <p>
-          Visitas estratégicas, articulações e palestras sobre ecossistema de
-          inovação, conduzido pelo squad de Inovação
+          {/* Visitas estratégicas, articulações e palestras sobre ecossistema de
+          inovação, conduzido pelo squad de Inovação */}
+          Maecenas non molestie libero. Nunc in augue a risus pretium bibendum quis in lorem. Morbi sodales vehicula posuere. Nunc suscipit tellus justo, sed porttitor nulla ultrices id. Vivamus ut lacus sed nisi auctor lacinia. Vestibulum vehicula venenatis vestibulum. Aliquam erat volutpat. Ut bibendum nibh sed ipsum congue, ut convallis nisi maximus. Sed condimentum velit consectetur aliquam egestas. Duis gravida tellus vel libero vestibulum, non rhoncus sapien pretium. Fusce pretium mi orci, sed tempus est maximus eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ut dolor semper, tincidunt magna id, porttitor felis. Maecenas eget commodo magna. Ut ultricies massa nulla, nec vestibulum odio porta at. 
         </p>
       </section>
     </div>

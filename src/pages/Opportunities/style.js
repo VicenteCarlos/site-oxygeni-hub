@@ -28,20 +28,27 @@ export const StyledMain = styled.main`
       margin: 0 130%;
     }
 
+    @media (min-width: 600px) {
+      img {
+        width: 35rem;
+        position: relative;
+        margin: 0 130%;
+      }
+    }
+
     .s-1 {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
 
-      width: 10rem;
       .icons {
         display: flex;
         justify-content: center;
         flex-direction: row;
         align-items: center;
         text-align: center;
-        width: 20rem;
+        width: 100%;
         flex-wrap: wrap;
 
         figcaption {
@@ -51,6 +58,7 @@ export const StyledMain = styled.main`
           padding: 0.6rem;
           color: white;
           font-family: "DM Sans", sans-serif;
+          margin: 0px;
         }
 
         section {
@@ -66,7 +74,7 @@ export const StyledMain = styled.main`
             display: flex;
             flex-direction: row;
             justify-content: center;
-            width: 3rem;
+            width: 4rem;
             font-size: 0.9rem;
             font-weight: 900;
             margin: 0 20px;
@@ -121,38 +129,38 @@ export const StyledMain = styled.main`
             .python3,
             .angular,
             .react {
-              margin: 20px 0;
+              margin: 0;
             }
 
             .mysql,
             .java {
-              margin-top: 10px;
+              margin: 0;
             }
           }
         }
       }
-      .nameBackGroundColorCSS {
+      #nameBackGroundColorCSS {
         background-color: #0070ba;
       }
-      .nameBackGroundColorJS {
+      #nameBackGroundColorJS {
         background-color: #ffa500;
       }
-      .nameBackGroundColorPython {
+      #nameBackGroundColorPython {
         background-color: #6a5acd;
       }
-      .nameBackGroundColorReact {
+      #nameBackGroundColorReact {
         background-color: #61dbfb;
       }
-      .nameBackGroundColorAngular {
+      #nameBackGroundColorAngular {
         background-color: red;
       }
-      .nameBackGroundColorMySql {
+      #nameBackGroundColorMySql {
         background-color: #0075bf;
       }
-      .nameBackGroundColorJava {
+      #nameBackGroundColorJava {
         background-color: #f89820;
       }
-      .nameBackGroundColorHTML {
+      #nameBackGroundColorHTML {
         background-color: #e34c26;
       }
     }
@@ -177,7 +185,16 @@ export const StyledMain = styled.main`
 
       @media (min-width: 320px) {
         p {
-          font-size: 1.4rem;
+          font-size: 1rem;
+          color: #1c2f5d;
+          width: 100%;
+          margin-top: 34px;
+          text-align: center;
+        }
+      }
+      @media (min-width: 600px) {
+        p {
+          font-size: 1.2rem;
           color: #1c2f5d;
           width: 100%;
           margin-top: 34px;
