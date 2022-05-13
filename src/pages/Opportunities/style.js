@@ -13,6 +13,7 @@ export const StyledMain = styled.main`
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
 
     h2 {
       color: #1c2f5d;
