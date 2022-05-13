@@ -25,6 +25,12 @@ export const StyledMain = styled.main`
       position: relative;
       bottom: 200px;
     }
+
+    @media (min-width: 768px) {
+      p {
+        font-size: 22px;
+      }
+    }
   }
 
   .s-2 {
@@ -43,7 +49,7 @@ export const StyledMain = styled.main`
       div {
         position: relative;
         top: 29px;
-        
+
         h2 {
           color: #1c2f5d;
           font-size: 32px;
@@ -77,6 +83,20 @@ export const StyledMain = styled.main`
     img {
       display: none;
     }
+
+    @media (min-width: 768px) {
+      .content {
+        div {
+          h2 {
+            font-size: 42px;
+          }
+        }
+
+        p {
+          width: 500px;
+        }
+      }
+    }
   }
 
   .s-3 {
@@ -95,10 +115,13 @@ export const StyledMain = styled.main`
       margin-top: 20px;
       text-align: center;
     }
-/* 
-    div {
-      display: flex;
-      overflow: scroll;
-    } */
+
+    @media (min-width: 768px) {
+      div {
+        display: flex;
+        overflow: scroll;
+        flex-wrap: wrap;
+      }
+    }
   }
 `;

@@ -81,4 +81,8 @@ export const StyledFooter = styled.footer`
       font-weight: bold;
     }
   }
+
+  @media (min-width: 768px) {
+    margin-top: 800px;
+  }
 `;
