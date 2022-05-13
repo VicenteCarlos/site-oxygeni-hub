@@ -1,16 +1,27 @@
 import { StyledHeader } from "./style";
 import { motion } from "framer-motion";
+import { AiOutlineMenu } from "react-icons/ai";
 import { Li } from "../../js";
 import { Link } from "react-router-dom";
+import {btVariant} from "./variants"
 
 const Header = () => (
   <StyledHeader>
-    <img
+    {/* <img
       className="logo"
       src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
       alt="OxygeniLogo"
-    />
-    <nav className="navegacao">
+    /> */}
+    <motion.button
+        variants={btVariant}
+        initial="initial"
+        animate="visible"
+        exit="exit"
+        whileHover={{ scale: 1.2 }}
+      >
+      <AiOutlineMenu />
+    </motion.button>
+    {/* <nav className="navegacao">
       <ul>
         {Li.map((item, i) => (
           <motion.li
@@ -23,7 +34,7 @@ const Header = () => (
           </motion.li>
         ))}
       </ul>
-    </nav>
+    </nav> */}
   </StyledHeader>
 );
 

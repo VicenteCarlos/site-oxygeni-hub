@@ -14,12 +14,12 @@ export const StyledMain = styled.main`
     align-items: center;
 
     img {
-      width: 1000px;
+      width: 200px;
       height: 700px;
     }
 
     p {
-      width: 410px;
+      width: 300px;
       text-align: center;
       font-size: 18px;
       position: relative;
@@ -43,11 +43,11 @@ export const StyledMain = styled.main`
       div {
         position: relative;
         top: 29px;
-
+        
         h2 {
           color: #1c2f5d;
-          font-size: 50px;
-          line-height: 35px;
+          font-size: 32px;
+          line-height: 19px;
           font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -63,19 +63,19 @@ export const StyledMain = styled.main`
       }
 
       p {
-        width: 470px;
+        width: 200px;
         text-align: center;
-        font-size: 27px;
+        font-size: 20px;
         color: #1c2f5d;
         margin-top: 10px;
-        padding: 60px 105px 105px 105px;
+        padding: 60px 50px 50px 50px;
         background-color: #eff0f2;
         border-radius: 15px;
       }
     }
 
     img {
-      margin-left: 200px;
+      display: none;
     }
   }
 
@@ -90,14 +90,15 @@ export const StyledMain = styled.main`
     h2 {
       color: #1c2f5d;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 40px;
+      font-size: 30px;
       margin-left: 3%;
       margin-top: 20px;
       text-align: center;
     }
-
+/* 
     div {
       display: flex;
-    }
+      overflow: scroll;
+    } */
   }
 `;

@@ -6,12 +6,25 @@ export const StyledHeader = styled.header`
   display: flex;
   align-items: center;
 
-  .logo {
-    width: 400px;
-    padding-right: 70px;
+  /* .logo {
+    width: 100px;
+  } */
+
+  button {
+    border: none;
+    cursor: pointer;
+    background: none;
   }
 
-  nav {
+  svg {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    margin-right: 10px;
+  }
+
+  /* nav {
     ul {
       display: flex;
 
@@ -37,6 +50,7 @@ export const StyledHeader = styled.header`
     background-color: #37466b;
     color: white;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+<<<<<<< HEAD
   }
 
   @media (min-width: 320px) {
@@ -73,4 +87,7 @@ export const StyledHeader = styled.header`
       box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     } 
   }
+=======
+  } */
+>>>>>>> 19a602e335a021eabe5ddfaf7f8583332f7fda18
 `;
