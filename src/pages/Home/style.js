@@ -134,7 +134,6 @@ export const StyledMain = styled.main`
     @media (min-width: 768px) {
       div {
         display: flex;
-        overflow: scroll;
         flex-wrap: wrap;
       }
 

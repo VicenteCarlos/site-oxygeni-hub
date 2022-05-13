@@ -9,27 +9,23 @@ export const StyledFooter = styled.footer`
   flex-direction: column;
 
   .logoRodape {
-    /* width: 600px;
-    height: 280px;
-    border-right: 3px solid;
-    color: white; */
     display: none;
   }
 
-   .botao-1 {
-      background-color: #eff0f2;
-      padding: 15px;
-      border: none;
-      width: 280px;
-      height: 80px;
-      border-radius: 25px;
-      font-size: 22px;
-      font-family: "Roboto", sans-serif;
-      color: #1c2f5d;
-      cursor: pointer;
-      font-weight: bold;
-      margin: 15px auto 0 auto;
-    }
+  .botao-1 {
+    background-color: #eff0f2;
+    padding: 15px;
+    border: none;
+    width: 280px;
+    height: 80px;
+    border-radius: 25px;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    color: #1c2f5d;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 15px auto 0 auto;
+  }
 
   .redes {
     display: flex;
@@ -48,10 +44,6 @@ export const StyledFooter = styled.footer`
 
   .conteudo {
     display: none;
-    /* align-items: center;
-    justify-content: center;
-    flex-flow: column nowrap;
-    margin-left: 170px; */
 
     h2 {
       color: #ffffff;
@@ -84,5 +76,28 @@ export const StyledFooter = styled.footer`
 
   @media (min-width: 768px) {
     margin-top: 650px;
+  }
+
+  @media (min-width: 1200px) {
+    .botao-1 {
+      display: none;
+    }
+
+    .logoRodape {
+      width: 600px;
+      height: 280px;
+      border-right: 3px solid;
+      color: white;
+    }
+
+    .conteudo {
+      align-items: center;
+      justify-content: center;
+      flex-flow: column nowrap;
+      margin-left: 170px;
+      position: relative;
+      bottom: 100px;
+      display: initial;
+    }
   }
 `;

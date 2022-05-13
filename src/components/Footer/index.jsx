@@ -3,11 +3,11 @@ import { StyledFooter } from "./style";
 const Footer = () => (
   <StyledFooter>
     <div className="imagem">
-      {/* <img
+      <img
         className="logoRodape"
         src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
         alt="logoOxygeni"
-      /> */}
+      />
     </div>
     <button className="botao-1">fale conosco!</button>
     <div className="redes">
