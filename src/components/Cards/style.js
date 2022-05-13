@@ -12,7 +12,6 @@ export const Container = styled.div`
   height: 390px;
   border-radius: 15px;
   padding: 25px;
-  /* box-shadow: 10px 15px 10px #000; */
   box-shadow: 2px 5px 2px #000;
   cursor: pointer;
 
@@ -39,4 +38,10 @@ export const Container = styled.div`
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     }
   }
+
+  @media (min-width: 1200px) {
+    width: 300px;
+    flex-direction: column;
+    box-shadow: 6px 6px 6px #000;
+  } 
 `;

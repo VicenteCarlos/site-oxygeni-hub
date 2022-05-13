@@ -87,6 +87,8 @@ export const StyledMain = styled.main`
     @media (min-width: 768px) {
       .content {
         div {
+          right: 90px;
+
           h2 {
             font-size: 42px;
           }
@@ -95,6 +97,19 @@ export const StyledMain = styled.main`
         p {
           width: 500px;
         }
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .content {
+        p {
+          width: 400px;
+          margin-right: 200px;
+        }
+      }
+
+      img {
+        display: initial;
       }
     }
   }
@@ -121,6 +136,10 @@ export const StyledMain = styled.main`
         display: flex;
         overflow: scroll;
         flex-wrap: wrap;
+      }
+
+      h2 {
+        font-size: 45px;
       }
     }
   }

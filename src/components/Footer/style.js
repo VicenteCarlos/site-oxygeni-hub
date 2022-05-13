@@ -83,6 +83,6 @@ export const StyledFooter = styled.footer`
   }
 
   @media (min-width: 768px) {
-    margin-top: 800px;
+    margin-top: 650px;
   }
 `;
