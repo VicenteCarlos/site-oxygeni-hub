@@ -8,12 +8,14 @@ export const Container = styled.div`
   align-items: center;
   background-color: #1c2f5d;
   color: white;
-  width: 220px;
+  width: 300px;
   height: 390px;
   border-radius: 15px;
   padding: 25px;
   box-shadow: 2px 5px 2px #000;
   cursor: pointer;
+
+  
 
   h3 {
     font-size: 27px;
@@ -41,7 +43,10 @@ export const Container = styled.div`
 
   @media (min-width: 1200px) {
     width: 300px;
+    height: 390px;
     flex-direction: column;
     box-shadow: 6px 6px 6px #000;
   } 
 `;
+
+
