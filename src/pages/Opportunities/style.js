@@ -88,7 +88,7 @@ export const StyledMain = styled.main`
               height: 50px;
             }
             .java {
-              color: #f25c39;
+              color: #FF6347;
               width: 3rem;
               height: 50px;
             }
@@ -159,7 +159,7 @@ export const StyledMain = styled.main`
         background-color: #0075bf;
       }
       #nameBackGroundColorJava {
-        background-color: #f89820;
+        background-color: #FF6347;
       }
       #nameBackGroundColorHTML {
         background-color: #e34c26;
