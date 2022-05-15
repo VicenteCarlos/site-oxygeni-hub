@@ -5,8 +5,8 @@ export const StyledFooter = styled.footer`
   padding: 20px;
   display: flex;
   height: 260px;
-  margin-top: 1796px;
   flex-direction: column;
+  margin-top: ${props => props.page !== "opportunities" ? "650px" : "1670px"};
 
   .logoRodape {
     display: none;
@@ -78,11 +78,9 @@ export const StyledFooter = styled.footer`
     }
   }
 
-  @media (min-width: 768px) {
-    margin-top: 650px;
-  }
-
   @media (min-width: 1200px) {
+    margin-top: 620px;
+    
     .botao-1 {
       display: none;
     }

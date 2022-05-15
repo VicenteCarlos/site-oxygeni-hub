@@ -107,13 +107,6 @@ export const Opportunities = () => {
             </section>
           </div>
         </section>
-        <section className="s-2">
-          {/* <img src="https://cdn.discordapp.com/attachments/651404729766772763/966420361044430928/img.png" alt="espaços" /> */}
-          <p>
-            Visitas estratégicas, articulações e palestras sobre ecossistema de
-            inovação, conduzido pelo squad de Inovação
-          </p>
-        </section>
       </div>
     </StyledMain>
   );
