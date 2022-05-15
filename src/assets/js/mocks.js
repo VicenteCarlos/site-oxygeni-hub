@@ -107,3 +107,11 @@ export const Components = {
       },
   ]
 }
+
+export const li = {
+  "/": "Home",
+  "/aboutus": "Sobre Nós",
+  "/bepartofit": "Faça Parte",
+  "#": "Eventos",
+  "/opportunities": "Oportunidades",
+};

@@ -4,13 +4,20 @@ import { useMenu } from "../../providers/MenuProvider";
 import { IoLogoInstagram } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { li } from "../../assets/js/mocks";
 
 const Menu = () => {
   const { handleClickMenu } = useMenu();
 
   return (
     <>
-      <StyledHeader>
+      <StyledHeader
+        as={motion.header}
+        initial={{y: "100vh"}}
+        animate={{y: 0}}
+        transition={{type: "tween", stiffness: 50, duration: 0.7}}
+        exit={{y: -100, transition: {ease: "easeInOut"}}}
+      >
         <img
           src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png"
           alt="logoOxygeniHub"
@@ -25,34 +32,22 @@ const Menu = () => {
           X
         </motion.button>
       </StyledHeader>
-      <StyledMain>
+      <StyledMain
+        as={motion.main}
+        initial={{y: "100vh"}}
+        animate={{y: 0}}
+        transition={{type: "tween", stiffness: 50, duration: 0.7}}
+        exit={{y: -100, transition: {ease: "easeInOut"}}}
+      >
         <nav className="nav-1">
           <ul>
-            <li>
-              <Link to="/">
-                <button onClick={handleClickMenu}>Home</button>
-              </Link>
-            </li>
-            <li>
-              <Link to="/aboutus">
-                <button onClick={handleClickMenu}>Sobre Nós</button>
-              </Link>
-            </li>
-            <li>
-              <Link to="/bepartofit">
-                <button onClick={handleClickMenu}>Faça Parte</button>
-              </Link>
-            </li>
-            <li>
-              <Link to="/">
-                <button onClick={handleClickMenu}>Eventos</button>
-              </Link>
-            </li>
-            <li>
-              <Link to="/opportunities">
-                <button onClick={handleClickMenu}>Oportunidades</button>
-              </Link>
-            </li>
+            {Object.entries(li).map((item) => (
+              <li>
+                <Link to={item[0]}>
+                  <button onClick={handleClickMenu}>{item[1]}</button>
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
         <nav className="nav-2">
