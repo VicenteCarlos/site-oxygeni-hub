@@ -1,4 +1,4 @@
- *{
+*{
     margin:0 ;
     padding:0 ;
     font-size: 62.5%;
@@ -11,18 +11,22 @@ body{
     flex-direction:column;
 } 
 .cards .card {
-    width:30rem;
+    width:25rem;
     height: 25rem;
     position: relative;
     margin: 3rem 1rem;
     padding:2rem 1.5rem;
-    background-color: gray;
+    background-color: #1C2F5D;
     border-radius: 1rem;
+    display:flex;
+    align-items: center;
     flex-direction:column;
     transition: 0.5s ease-in-out;
 }
 .cards .card:hover{
     height:50rem;
+    border: 0.5 dashed white;
+
     
 }
 .card .instituicao{
@@ -35,26 +39,36 @@ body{
     z-index: 1; 
 }
 .card .instituicao img{
-    max-width: 100%;
+    max-width: 90%;  
+}
+.cards img{
+    border: 0.5 dashed white;
 }
 .info{
-    /* position: relative;
-    margin-top:-14rem; */
-    padding: 1rem;
-    color:blue;
+    color: white;
     font-size:1.6rem;
     visibility:hidden;
     transition-delay: 0.5s ease-in-out; 
     display:flex;
     align-items: center;
     flex-direction:column;
+    border: 0.5 dashed white;
 
 }
  .cards .card:hover .info {
     visibility:visible;
-    transition-delay: 0.5s ease-in-out; 
+    transition-delay: 0.3s; 
     cursor: pointer;
 } 
- /* .cards .card .texto .info:hover{
-    
-}  */
+@media screen and (min-width: 768px) {
+     
+    .cards{
+        display: flex;
+    }
+    .cards-box2{
+        display:flex;
+        flex-direction: row;
+
+    }
+   
+}
