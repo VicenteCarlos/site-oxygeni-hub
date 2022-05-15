@@ -131,6 +131,7 @@ export const StyledMain = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 140vh;
 
     h2 {
       color: #1c2f5d;
@@ -151,5 +152,10 @@ export const StyledMain = styled.main`
         font-size: 45px;
       }
     }
+
+    @media (min-width: 1200px) {
+      height: 80vh;
+    }
+    
   }
 `;
