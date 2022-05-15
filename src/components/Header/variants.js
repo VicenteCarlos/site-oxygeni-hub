@@ -1,11 +1,12 @@
 const btVariant = {
   visible: {
-    x: 140,
+    x: 110,
+    y: 0,
     marginRight: 10,
-    transition: { type: "spring", stiffness: 170 },
+    transition: { type: "spring", stiffness: 30 },
   },
   initial: {
-    x: 0,
+    y: -100,
   },
   exit: {
     opacity: 0,

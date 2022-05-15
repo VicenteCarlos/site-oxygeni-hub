@@ -23,7 +23,7 @@ const Home = () => (
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
       <motion.section className="s-1">
-        <img src="#" alt="oxygeni" />
+        <img src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png" alt="oxygeni" />
         <p>
           Iniciativa que surgiu para viabilizar projetos de inovação por meio do
           conhecimento e conexões.

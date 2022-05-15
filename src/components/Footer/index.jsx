@@ -2,13 +2,6 @@ import { StyledFooter } from "./style";
 
 const Footer = () => (
   <StyledFooter>
-    <div className="imagem">
-      <img
-        className="logoRodape"
-        src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
-        alt="logoOxygeni"
-      />
-    </div>
     <button className="botao-1">fale conosco!</button>
     <div className="redes">
       <a href="https://www.linkedin.com/company/oxygeni-hub/" target="_blank">
@@ -27,12 +20,14 @@ const Footer = () => (
         />{" "}
       </a>
     </div>
+    <img id="logo" src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png" alt="logoOxygeni" />
     <div className="conteudo">
       <h2 className="frase">FAÇA PARTE</h2>
       <h2 className="frase-2">FAÇA PARTE</h2>
       <h2 className="frase-3">FAÇA PARTE</h2>
       <button className="botao">fale conosco!</button>
     </div>
+    
   </StyledFooter>
 );
 

@@ -15,15 +15,13 @@ export const StyledMain = styled.main`
 
     img {
       width: 200px;
-      height: 700px;
     }
 
     p {
       width: 300px;
       text-align: center;
-      font-size: 18px;
-      position: relative;
-      bottom: 200px;
+      font-size: 19px;
+      margin-top: 30px;
     }
 
     @media (min-width: 768px) {
@@ -87,7 +85,6 @@ export const StyledMain = styled.main`
     @media (min-width: 768px) {
       .content {
         div {
-          right: 90px;
 
           h2 {
             font-size: 42px;
@@ -102,6 +99,10 @@ export const StyledMain = styled.main`
 
     @media (min-width: 1200px) {
       .content {
+        div {
+          right: 90px;
+        }
+
         p {
           width: 400px;
           margin-right: 200px;
@@ -110,6 +111,15 @@ export const StyledMain = styled.main`
 
       img {
         display: initial;
+        width: 300px;
+      }
+    }
+
+    @media (min-width: 1400px) {
+
+      img {
+        display: initial;
+        width: 410px;
       }
     }
   }

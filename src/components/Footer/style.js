@@ -12,6 +12,10 @@ export const StyledFooter = styled.footer`
     display: none;
   }
 
+  #logo {
+    display: none;
+  }
+
   .botao-1 {
     background-color: #eff0f2;
     padding: 15px;
@@ -81,6 +85,14 @@ export const StyledFooter = styled.footer`
   @media (min-width: 1200px) {
     .botao-1 {
       display: none;
+    }
+
+    #logo {
+      display: none;
+      width: 200px;
+      position: relative;
+      left: 1600px;
+      bottom: 50px;
     }
 
     .logoRodape {

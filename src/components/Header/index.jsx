@@ -12,11 +12,14 @@ const Header = () => {
 
   return (
     <StyledHeader>
-      {/* <img
+      <motion.img
         className="logo"
-        src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
+        src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png"
         alt="OxygeniLogo"
-      /> */}
+        initial={{x: -100}}
+        animate={{x: 0}}
+        transition={{type: "spring", stiffness: 30}}
+      />
       <motion.button
           variants={btVariant}
           onClick={handleClickMenu}
@@ -27,7 +30,7 @@ const Header = () => {
         >
         <AiOutlineMenu />
       </motion.button>
-      {/* <nav className="navegacao">
+      <nav className="navegacao">
         <ul>
           {Li.map((item, i) => (
             <motion.li
@@ -40,7 +43,7 @@ const Header = () => {
             </motion.li>
           ))}
         </ul>
-      </nav> */}
+      </nav>
     </StyledHeader>
   )
 };
