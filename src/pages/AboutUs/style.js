@@ -49,8 +49,8 @@ height: 1800px;
         border: 3px solid #1C2F5D;
         padding:10px;
     }  
-    
-}
+}   
+
 
 .container2 { 
     display:flex;
