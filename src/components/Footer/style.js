@@ -78,9 +78,11 @@ export const StyledFooter = styled.footer`
     }
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 768px) {
     margin-top: 620px;
-    
+  }
+
+  @media (min-width: 1200px) {
     .botao-1 {
       display: none;
     }
