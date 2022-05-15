@@ -13,7 +13,6 @@ export const StyledMain = styled.main`
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
 
     h2 {
       color: #1c2f5d;
@@ -81,6 +80,40 @@ export const StyledMain = styled.main`
             margin: 0 20px;
           }
 
+          .modal {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+          }
+          .modal-overlay {
+            background: blue;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .modal-content {
+            width: 90%;
+            max-width: 500px;
+            background-color: red;
+            padding: 10px;
+            border-radius: 5px;
+          }
+          button {
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 2px solid transparent;
+          }
+
+          
+           
+
+
           figure {
             .js {
               color: #ffa500;
@@ -88,7 +121,7 @@ export const StyledMain = styled.main`
               height: 50px;
             }
             .java {
-              color: #FF6347;
+              color: #ff6347;
               width: 3rem;
               height: 50px;
             }
@@ -140,29 +173,100 @@ export const StyledMain = styled.main`
           }
         }
       }
-      #nameBackGroundColorCSS {
+
+      #nameBackGroundColorCSS{
         background-color: #0070ba;
+        border-radius: 25px;
+        border:2px dashed #0070ba;
+        
       }
+      #nameBackGroundColorCSS:hover{
+       color:#0070ba;
+       background-color:white; 
+       transition:0.5s;  
+      }
+
+
       #nameBackGroundColorJS {
         background-color: #ffa500;
+        border-radius: 25px;
+        border:2px dashed #ffa500;
       }
+      #nameBackGroundColorJS:hover{
+       color: #ffa500;
+       background-color:white; 
+       transition:0.5s;  
+      }
+
+      
       #nameBackGroundColorPython {
         background-color: #6a5acd;
+        border-radius: 25px;
+        border:2px dashed #6a5acd;
       }
+      #nameBackGroundColorPython:hover{
+        color: #6a5acd;
+        background-color:white; 
+        transition:0.5s; 
+      } 
+
+
       #nameBackGroundColorReact {
         background-color: #61dbfb;
+        border-radius: 35px;
+        border:2px dashed #61dbfb;
       }
+      #nameBackGroundColorReact:hover{
+        color: #61dbfb;
+        background-color:white; 
+        transition:0.5s; 
+      }
+
+
+
       #nameBackGroundColorAngular {
         background-color: red;
+        border-radius: 35px;
+        border:2px dashed red;
       }
+      #nameBackGroundColorAngular:hover{
+        color: red;
+        background-color:white; 
+        transition:0.5s; 
+      }  
+
       #nameBackGroundColorMySql {
         background-color: #0075bf;
+        border-radius: 35px;
+        border:2px dashed #0075bf;
       }
+      #nameBackGroundColorMySql:hover{
+        color: #0075bf;
+        background-color:white; 
+        transition:0.5s; 
+      }
+
       #nameBackGroundColorJava {
-        background-color: #FF6347;
+        background-color: #ff6347;
+        border-radius: 35px;
+        border:2px dashed #ff6347;
       }
+      #nameBackGroundColorJava:hover{
+        color: #ff6347;
+        background-color:white; 
+        transition:0.5s; 
+      }
+
+
       #nameBackGroundColorHTML {
         background-color: #e34c26;
+        border-radius: 35px;
+        border:2px dashed #e34c26;
+      }
+      #nameBackGroundColorHTML:hover{
+        color: #e34c26;
+        background-color:white; 
+        transition:0.5s; 
       }
     }
 

@@ -75,7 +75,7 @@ export const StyledFooter = styled.footer`
   }
 
   @media (min-width: 320px) {
-    margin-top: ${props => props.page !== "opportunities" ? "650px" : "140px"}
+    margin-top: ${props => props.page !== "opportunities" ? "650px" : "170px"}
   }
 
   @media (min-width: 1200px) {

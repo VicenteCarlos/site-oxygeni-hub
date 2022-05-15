@@ -10,12 +10,12 @@ import {
   DiJava,
 } from "react-icons/di";
 import { motion } from "framer-motion";
-import {useDiscoverPage} from "../../providers/DiscoverPageProvider"
+import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
 
 export const Opportunities = () => {
-  const {setPage} = useDiscoverPage()
+  const { setPage } = useDiscoverPage();
 
-  setPage("opportunities")
+  setPage("opportunities");
 
   return (
     <StyledMain
@@ -33,60 +33,76 @@ export const Opportunities = () => {
           />
           <div className="icons">
             <section>
-              <figure>
+              <figure id="js">
                 <DiJsBadge className="js" />
-                <figcaption id="nameBackGroundColorJS" >JavaScript</figcaption>
+                <button>
+                  <figcaption id="nameBackGroundColorJS">JavaScript</figcaption>
+                </button>
               </figure>
             </section>
-  
+
             <section>
-              <figure>
-               <DiJavascript className="html5" />
-                <figcaption id="nameBackGroundColorHTML">HTML5</figcaption>
+              <figure id="html5">
+                <DiJavascript className="html5" />
+                <button>
+                  <figcaption id="nameBackGroundColorHTML">HTML5</figcaption>
+                </button>
               </figure>
             </section>
-            
+
             <section>
-              <figure>
-                 <DiCss3 className="css3" />
-                <figcaption id="nameBackGroundColorCSS">CSS3</figcaption>
+              <figure id="css3">
+                <DiCss3 className="css3" />
+                <button>
+                  <figcaption id="nameBackGroundColorCSS">CSS3</figcaption>
+                </button>
               </figure>
             </section>
-  
+
             <section>
-              <figure>
+              <figure id="python3">
                 <DiPython className="python3" />
-                <figcaption id="nameBackGroundColorPython">Python</figcaption>
+                <button>
+                  <figcaption id="nameBackGroundColorPython">Python</figcaption>
+                </button>
               </figure>
             </section>
-  
+
             <section>
-              <figure>
+              <figure id="react">
                 <DiReact className="react" />
-                <figcaption id="nameBackGroundColorReact" >React</figcaption>
+                <button>
+                  <figcaption id="nameBackGroundColorReact">React</figcaption>
+                </button>
               </figure>
             </section>
-  
-  
+
             <section>
-              <figure>
+              <figure id="angular">
                 <DiAngularSimple className="angular" />
-                <figcaption id="nameBackGroundColorAngular">Angular</figcaption>
+                <button>
+                  <figcaption id="nameBackGroundColorAngular">
+                    Angular
+                  </figcaption>
+                </button>
               </figure>
             </section>
-  
-  
+
             <section>
-              <figure>
+              <figure id="mysql">
                 <DiMysql className="mysql" />
-                <figcaption id="nameBackGroundColorMySql">MySql</figcaption>
+                <button>
+                  <figcaption id="nameBackGroundColorMySql">MySql</figcaption>
+                </button>
               </figure>
             </section>
-  
+
             <section>
-              <figure>
+              <figure id="java">
                 <DiJava className="java" />
-                <figcaption id="nameBackGroundColorJava">Java</figcaption>
+                <button>
+                  <figcaption id="nameBackGroundColorJava">Java</figcaption>
+                </button>
               </figure>
             </section>
           </div>
@@ -94,12 +110,11 @@ export const Opportunities = () => {
         <section className="s-2">
           {/* <img src="https://cdn.discordapp.com/attachments/651404729766772763/966420361044430928/img.png" alt="espaços" /> */}
           <p>
-             Visitas estratégicas, articulações e palestras sobre ecossistema de
-            inovação, conduzido pelo squad de Inovação 
-            
+            Visitas estratégicas, articulações e palestras sobre ecossistema de
+            inovação, conduzido pelo squad de Inovação
           </p>
         </section>
       </div>
     </StyledMain>
   );
-}
+};
