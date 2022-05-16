@@ -7,7 +7,7 @@ height: 1800px;
     flex-direction: column;
     justify-content: space-around;
     border-top: 10px;
-    margin:50px 0px 20px 0px;
+    /* margin:50px 0px 20px 0px; */
     align-items: center;
     @media screen and (min-width:768px){
             display:flex;
@@ -16,6 +16,7 @@ height: 1800px;
     }
    }
     .conteudo{
+        margin:150px 0 0 0;
         display:flex;
         flex-direction: column;
         justify-content:center;

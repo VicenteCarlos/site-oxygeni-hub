@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledMain = styled.main`
   height: 1200px;
-
+  
   .s-1 {
     background-color: blue;
     color: white;

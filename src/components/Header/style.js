@@ -6,10 +6,13 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: -webkit-sticky;
+  /* position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top:0; */
+  position:fixed;
+ 
   z-index: 1;
+  width:100vw;
 
   .logo {
     width: 130px;
@@ -38,19 +41,25 @@ export const StyledHeader = styled.header`
     
     ul {
       display: flex;
+       align-items: center;
 
       .item {
         list-style: none;
+        text-align: center;
+        display:flex ;
+        align-items: center !important;
+        justify-content: space-between;
+        
 
         a {
           color: #8d97ae;
           text-decoration: none;
           font-family: "PT Sans", sans-serif;
           font-weight: 400;
-          margin-left: 100px;
+          /* margin-left: 100px; */
           border-radius: 15px;
           text-decoration: none;
-          padding: 10px;
+          /* padding: 10px; */
         }
       }
     }
@@ -70,14 +79,20 @@ export const StyledHeader = styled.header`
         display: flex;
 
         .item {
+
           list-style: none;
+        text-align: center;
+        display:flex ;
+        align-items: center !important;
+        justify-content: space-between;
+        margin:0 2rem;
 
           a {
             color: #8d97ae;
             text-decoration: none;
             font-family: "PT Sans", sans-serif;
             font-weight: 400;
-            margin-left: 100px;
+            /* margin-left: 100px; */
             border-radius: 15px;
             text-decoration: none;
             padding: 10px;
@@ -97,6 +112,7 @@ export const StyledHeader = styled.header`
   @media (min-width: 1200px) {
     button {
       display: none;
+
     }
     
     nav {
@@ -106,6 +122,8 @@ export const StyledHeader = styled.header`
       ul {
         li {
           font-size: 20px;
+          
+
         }
       }
     }

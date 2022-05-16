@@ -7,9 +7,7 @@ export const StyledMain = styled.main`
   justify-content: center;
   align-items: center;
 
-  body {
-    font-size: 62.5%;
-  }
+ 
 
   .container {
     display: flex;
@@ -22,17 +20,26 @@ export const StyledMain = styled.main`
       color: #1c2f5d;
       font-size: 180%;
       text-align: center;
-      margin-top: 70px;
+      /* margin: 250px 0 0 0; */
       font-family: "Plus Jakarta Sans", sans-serif;
     }
 
     img {
-      width: 25rem;
+      width: 20rem;
       position: relative;
-      margin: 0 130%;
+      /* margin: 0 130%; */
     }
 
+    @media (max-width:480px){
+          h2{
+             margin-top: 250px;
+          }
+      }
+        
     .s-1 {
+
+      
+
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -143,7 +150,7 @@ export const StyledMain = styled.main`
             }
 
             .mysql {
-              width: 3rem;
+               width: 3rem; 
               height: 50px;
             }
 
@@ -256,6 +263,8 @@ export const StyledMain = styled.main`
         background-color: white;
         transition: 0.5s;
       }
+        
+      
     }
 
     .s-2 {
@@ -285,6 +294,7 @@ export const StyledMain = styled.main`
           text-align: center;
         }
       }
+
 
       @media (min-width: 600px) {
         p {
