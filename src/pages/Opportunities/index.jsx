@@ -11,9 +11,11 @@ import {
 } from "react-icons/di";
 import { motion } from "framer-motion";
 import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
+import {useModal} from "../../providers/ModalProvider"
 
 export const Opportunities = () => {
   const { setPage } = useDiscoverPage();
+  const {modalIsOpen, setModalIsOpen} = useModal()
 
   setPage("opportunities");
 
@@ -80,7 +82,7 @@ export const Opportunities = () => {
             <section>
               <figure id="angular">
                 <DiAngularSimple className="angular" />
-                <button>
+                <button onClick={() => setModalIsOpen(!modalIsOpen)}>
                   <figcaption id="nameBackGroundColorAngular">
                     Angular
                   </figcaption>

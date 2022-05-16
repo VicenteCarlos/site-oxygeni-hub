@@ -7,8 +7,6 @@ export const StyledMain = styled.main`
   justify-content: center;
   align-items: center;
 
- 
-
   .container {
     display: flex;
     justify-content: center;
