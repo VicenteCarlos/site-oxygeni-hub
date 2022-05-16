@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledMain = styled.main`
   height: 1200px;
+  display: ${props => props.modalIsOpen ? "none" : "initial"}
   
   .s-1 {
     background-color: blue;

@@ -3,12 +3,9 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   background-color: #1c2f5d;
   height: 100px;
-  display: flex;
+  display: ${props => props.modalIsOpen ? "none" : "flex"};
   justify-content: space-between;
   align-items: center;
-  /* position: -webkit-sticky;
-  position: sticky;
-  top:0; */
   position:fixed;
  
   z-index: 1;

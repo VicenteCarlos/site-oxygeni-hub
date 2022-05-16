@@ -1,11 +1,13 @@
 import { StyledFooter } from "./style";
-import {useDiscoverPage} from "../../providers/DiscoverPageProvider"
+import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
+import { useModal } from "../../providers/ModalProvider";
 
 const Footer = () => {
-  const {page} = useDiscoverPage()
-  
+  const { page } = useDiscoverPage();
+  const { modalIsOpen } = useModal();
+
   return (
-    <StyledFooter page={page}>
+    <StyledFooter modalIsOpen={modalIsOpen} page={page}>
       <button className="botao-1">fale conosco!</button>
       <div className="redes">
         <a href="https://www.linkedin.com/company/oxygeni-hub/" target="_blank">
@@ -24,7 +26,11 @@ const Footer = () => {
           />{" "}
         </a>
       </div>
-      <img id="logo" src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png" alt="logoOxygeni" />
+      <img
+        id="logo"
+        src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png"
+        alt="logoOxygeni"
+      />
       <div className="conteudo">
         <h2 className="frase">FAÇA PARTE</h2>
         <h2 className="frase-2">FAÇA PARTE</h2>
@@ -33,6 +39,6 @@ const Footer = () => {
       </div>
     </StyledFooter>
   );
-}
+};
 
-export { Footer }
+export { Footer };

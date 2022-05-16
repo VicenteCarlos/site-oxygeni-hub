@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledMain = styled.main`
   height: 850px;
-  display: flex;
+  display: ${props => props.modalIsOpen ? "none" : "flex"};
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -18,14 +18,12 @@ export const StyledMain = styled.main`
       color: #1c2f5d;
       font-size: 180%;
       text-align: center;
-      /* margin: 250px 0 0 0; */
       font-family: "Plus Jakarta Sans", sans-serif;
     }
 
     img {
       width: 20rem;
       position: relative;
-      /* margin: 0 130%; */
     }
 
     @media (max-width:480px){

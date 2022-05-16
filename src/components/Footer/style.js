@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledFooter = styled.footer`
   background-color: #1c2f5d;
   padding: 20px;
-  display: flex;
+  display: ${props => props.modalIsOpen ? "none" : "flex"};
   height: 260px;
   flex-direction: column;
   margin-top: ${props => props.page !== "opportunities" ? "1550px" : "1670px"};

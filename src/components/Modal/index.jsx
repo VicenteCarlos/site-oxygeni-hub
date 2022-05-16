@@ -7,7 +7,7 @@ const Modal = () => {
   return (
     <StyledMain>
       <div>
-        <button>X</button>
+       <button onClick={() => setModalIsOpen(!modalIsOpen)}>X</button>
         <figure>
           <img src="https://code4coders.files.wordpress.com/2017/03/angular-js.png" alt="language" />
           <figcaption>Angular</figcaption>

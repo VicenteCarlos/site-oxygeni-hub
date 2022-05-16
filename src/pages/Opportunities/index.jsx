@@ -11,16 +11,17 @@ import {
 } from "react-icons/di";
 import { motion } from "framer-motion";
 import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
-import {useModal} from "../../providers/ModalProvider"
+import { useModal } from "../../providers/ModalProvider";
 
 export const Opportunities = () => {
   const { setPage } = useDiscoverPage();
-  const {modalIsOpen, setModalIsOpen} = useModal()
+  const { modalIsOpen, setModalIsOpen } = useModal();
 
   setPage("opportunities");
 
   return (
     <StyledMain
+      modalIsOpen={modalIsOpen}
       as={motion.main}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

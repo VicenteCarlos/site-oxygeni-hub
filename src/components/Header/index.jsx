@@ -5,13 +5,15 @@ import { Li } from "../../js";
 import { Link } from "react-router-dom";
 import {btVariant} from "./variants"
 import {useMenu} from "../../providers/MenuProvider"
+import { useModal } from "../../providers/ModalProvider";
 
 const Header = () => {
   
   const {handleClickMenu} = useMenu()
+  const {modalIsOpen} = useModal()
 
   return (
-    <StyledHeader>
+    <StyledHeader modalIsOpen={modalIsOpen}>
       <motion.img
         className="logo"
         src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png"
