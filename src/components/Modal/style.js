@@ -70,6 +70,48 @@ const StyledMain = styled.main`
     }
   }
 
+  @media (min-width: 768px) {
+    div {
+      width: 60vw;
+
+      button {
+        left: 12rem;
+        top: 0.3rem;
+      }
+    }
+  }
+
+  @media (min-width: 1100px) {
+    div {
+      width: 40vw;
+
+      button {
+        left: 12srem;
+        top: 0.2rem;
+      }
+    }
+  }
+
+  @media (min-width: 1600px) {
+    div {
+      width: 25vw;
+
+      button {
+        left: 10rem;
+        top: 0.2rem;
+      }
+    }
+  }
+
+  @media (min-width: 1920px) {
+    div {
+      width: 20vw;
+
+      button {
+        left: 10.5rem;
+      }
+    }
+  }
 `;
 
 export { StyledMain }
