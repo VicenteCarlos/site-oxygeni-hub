@@ -10,17 +10,19 @@ export const AboutUs = () => (
   >
     <section className="container">
       <div className="conteudo">
-        <h1 className="titulo">O que é um HUB?</h1>
-        <p className="texto">
-          São ambientes com fácil acesso à mão de obra qualificada e que contam
-          com a presença de entidades apoiadoras como aceleradoras e incubadoras
-        </p>
+        <img
+          className="imgmain"
+          alt="imgmain"
+          src="https://img.freepik.com/vetores-gratis/pessoas-minusculas-testando-a-garantia-de-qualidade-em-ilustracao-vetorial-plana-de-software-isolado-personagem-de-desenho-animado-corrigindo-bugs-no-dispositivo-de-hardware-teste-de-aplicativo-e-conceito-de-servico-de-ti_74855-10172.jpg?t=st=1650424195~exp=1650424795~hmac=d6f879b3f1f9ea6f013256c32123c3469760732dfdcbb08101dccfb9745e9910&w=996"
+        />
+        <div>
+          <h1 className="titulo">O que é um HUB?</h1>
+          <p className="texto">
+            São ambientes com fácil acesso à mão de obra qualificada e que contam
+            com a presença de entidades apoiadoras como aceleradoras e incubadoras
+          </p>
+        </div>
       </div>
-      <img
-        className="imgmain"
-        alt="imgmain"
-        src="https://img.freepik.com/vetores-gratis/pessoas-minusculas-testando-a-garantia-de-qualidade-em-ilustracao-vetorial-plana-de-software-isolado-personagem-de-desenho-animado-corrigindo-bugs-no-dispositivo-de-hardware-teste-de-aplicativo-e-conceito-de-servico-de-ti_74855-10172.jpg?t=st=1650424195~exp=1650424795~hmac=d6f879b3f1f9ea6f013256c32123c3469760732dfdcbb08101dccfb9745e9910&w=996"
-      />
     </section>
     <section className="container2">
       <img
