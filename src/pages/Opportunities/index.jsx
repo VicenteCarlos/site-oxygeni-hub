@@ -1,31 +1,52 @@
 import { StyledMain } from "./style";
-import { DiJsBadge, DiJavascript, DiCss3, DiPython, DiReact, DiAngularSimple, DiMysql, DiJava } from "react-icons/di";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
+import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
+import { useModal } from "../../providers/ModalProvider";
+import {configModal} from "../../assets/js/mocks"
 
+const Opportunities = () => {
+  const { setPage } = useDiscoverPage();
+  const { modalIsOpen, setModalIsOpen, setModalConfig } = useModal();
 
-export const Opportunities = () => (
-  <StyledMain as={motion.main} initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
-     <div className="container">
-        <h2>Construa as suas habilidades de desenvolvedor</h2>
+  setPage("opportunities");
+
+  return (
+    <StyledMain
+      modalIsOpen={modalIsOpen}
+      as={motion.main}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="container">
+        <hgroup>
+         <h2>Construa as suas habilidades de desenvolvedor</h2>
+         <h3>Curso oferecidos pelo Oxygeni-Hub</h3>
+        </hgroup>
         <section className="s-1">
-          <img src="https://cdn.discordapp.com/attachments/651404729766772763/966410443159650444/Wavy_Bus-15_Single-01.jpg" alt="illustration" />
+          <img
+            src="https://media1.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif?cid=ecf05e47uklntv2pa1u8wm6t5vow1f60jyqufww563vhhpaa&rid=giphy.gif&ct=s"
+            alt="illustration"
+          />
           <div className="icons">
-            <DiJsBadge className="js"/>
-            <DiJavascript className="html5"/>
-            <DiCss3 className="css3" />
-            <DiPython className="python3" />
-            <DiReact className="react" />
-            <DiAngularSimple className="angular" />
-            <DiMysql className="mysql"/>
-            <DiJava className="java" />
+            {configModal.map((item, i) => (
+              <section>
+              <figure>
+                <img src={item.img_v1} alt={`logo_${item.title}`} className={item.title}/>
+                <button onClick={() => {
+                  setModalIsOpen(!modalIsOpen)
+                  setModalConfig(configModal[i])
+                }}>
+                  <figcaption id={item.title}>{item.title}</figcaption>
+                </button>
+              </figure>
+            </section>
+            ))}
           </div>
         </section>
-        <section className="s-2">
-          <img src="https://cdn.discordapp.com/attachments/651404729766772763/966420361044430928/img.png" alt="espaços" />
-          <p>Visitas estratégicas, articulações e palestras sobre ecossistema de inovação, conduzido pelo Squade de Inovação</p>
-        </section>
-     </div>
-  </StyledMain>
-);
+      </div>
+    </StyledMain>
+  );
+};
 
-
+export { Opportunities }

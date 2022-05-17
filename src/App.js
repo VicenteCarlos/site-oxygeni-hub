@@ -1,13 +1,27 @@
-import { Header } from "./components/Header";
+import { Header, Footer, Menu, Modal } from "./components/";
 import { Rotas } from "./routes";
 import { GlobalStyle } from "./style";
-import { Footer } from "./components/Footer";
+import { useMenu } from "./providers/MenuProvider";
+import { AnimatePresence } from "framer-motion";
+import { useModal } from "./providers/ModalProvider";
 
-export const App = () => (
-  <>
-    <GlobalStyle />
-    <Header />
-    <Rotas />
-    <Footer />
-  </>
-);
+export const App = () => {
+  const { menuIsOpen } = useMenu();
+  const { modalIsOpen } = useModal();
+
+  return (
+    <>
+      <GlobalStyle />
+      {menuIsOpen ? (
+        <Menu />
+      ) : (
+        <AnimatePresence>
+          <Header />
+          <Rotas />
+          <Footer />
+        </AnimatePresence>
+      )}
+      {modalIsOpen && <Modal />}
+    </>
+  );
+};

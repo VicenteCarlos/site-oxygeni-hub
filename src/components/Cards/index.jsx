@@ -1,7 +1,7 @@
 import { Container } from "./style";
 import { motion } from "framer-motion";
 
-export const Cards = ({ item }) => (
+const Cards = ({ item }) => (
   <>
     <Container as={motion.div} whileHover={{ scale: 1.1 }}>
       <h3>{item.title}</h3>
@@ -12,3 +12,5 @@ export const Cards = ({ item }) => (
     </Container>
   </>
 );
+
+export { Cards }

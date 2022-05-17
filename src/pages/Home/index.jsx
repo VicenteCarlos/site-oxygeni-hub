@@ -1,47 +1,44 @@
-import { AnimatePresence } from "framer-motion";
-import {
-  StyledMain,
-  StyledSectionOne,
-  StyledSectionTwo,
-  StyledSectionThree,
-} from "./style";
-import { motion } from "framer-motion";
-import { Cards } from "../../components/Cards";
-import { Itens } from "../../assets/js/mocks";
-let arr = new Array(3).fill(0);
+import { StyledMain } from "./style";
+import { Cards } from "../../components";
+import { Itens } from "../../js";
+import { AnimatePresence, motion } from "framer-motion";
+import { useModal } from "../../providers/ModalProvider";
 
-export const Home = () => (
-  <>
+const whatDo = new Array(3).fill(0);
+
+const Home = () => {
+  const { modalIsOpen } = useModal();
+
+  return (
     <AnimatePresence>
       <StyledMain
+        modalIsOpen={modalIsOpen}
         as={motion.main}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
         exit={{ opacity: 0, transition: { duration: 0.5 } }}
       >
-        <StyledSectionOne as={motion.section}>
+        <motion.section className="s-1">
           <img
-            src="https://cdn.discordapp.com/attachments/691321430586949762/966129618929188894/logoOxygeni.png"
+            src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png"
             alt="oxygeni"
           />
           <p>
             Iniciativa que surgiu para viabilizar projetos de inovação por meio
             do conhecimento e conexões.
           </p>
-        </StyledSectionOne>
-        <StyledSectionTwo>
+        </motion.section>
+        <section className="s-2">
           <div className="content">
             <div>
-              {arr.map((item, i) => (
+              {whatDo.map((item, i) => (
                 <h2 className={`h2-${i + 1}`}>O que fazemos</h2>
               ))}
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Uma iniciativa que surgiu para viabilizar projetos de inovação por
+              meio do conhecimento e conexões
             </p>
           </div>
           <img
@@ -49,16 +46,18 @@ export const Home = () => (
             alt="#"
             width="550px"
           />
-        </StyledSectionTwo>
-        <StyledSectionThree>
+        </section>
+        <section className="s-3">
           <h2>Nossos Produtos</h2>
           <div>
             {Itens.map((item, i) => (
               <Cards key={i} item={item} />
             ))}
           </div>
-        </StyledSectionThree>
+        </section>
       </StyledMain>
     </AnimatePresence>
-  </>
-);
+  );
+};
+
+export { Home };
