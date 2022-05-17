@@ -30,7 +30,7 @@ const StyledMain = styled.main`
         font-weight: bold;
         border: none;
         position: relative;
-        top: -3rem;
+        top: 0.5rem;
         left: 6.5rem;
         font-size: 25px;
         cursor: pointer;
@@ -44,7 +44,7 @@ const StyledMain = styled.main`
       figcaption {
         color: ${props => props.modalConfig.colors[0]};
         font-weight: bold;
-        font-size: 20px;
+        font-size: 25px;
         padding-bottom: 2rem;
       }
     }
@@ -76,7 +76,7 @@ const StyledMain = styled.main`
 
       button {
         left: 12.5rem;
-        top: -6rem;
+        top: -2rem;
       }
     }
   }
@@ -85,9 +85,14 @@ const StyledMain = styled.main`
     div {
       width: 40vw;
 
+      p {
+        font-size: 17px;
+        line-height: 25px;
+      }
+
       button {
         left: 12rem;
-        top: -6rem;
+        top: 0;
       }
     }
   }
@@ -98,7 +103,7 @@ const StyledMain = styled.main`
 
       button {
         left: 10rem;
-        top: -5rem;
+        top: -0.5rem;
       }
     }
   }
@@ -109,7 +114,7 @@ const StyledMain = styled.main`
 
       button {
         left: 10.5rem;
-        bottom: 1rem;
+        top: -3rem;
       }
     }
   }

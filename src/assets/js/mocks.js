@@ -115,14 +115,17 @@ const configModal = [
     title: "JavaScript",
     description:
       "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
-    img: "https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47g928228v56njootqkbrl7afxxqeug12emvdy3vbe&rid=giphy.gif&ct=s",
+    img_v1:
+      "https://cdn.discordapp.com/attachments/584885695341002772/975526625041059931/jsLogo.png",
+    img_v2:
+      "https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47g928228v56njootqkbrl7afxxqeug12emvdy3vbe&rid=giphy.gif&ct=s",
     colors: ["#E8B928", "#6b5514"],
   },
   {
     title: "Angular",
     description:
       "Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu. ",
-    img: "https://media4.giphy.com/media/XEDIHHp3i8bVoEdxd7/giphy.gif?cid=ecf05e47g6atnwn7aivxgdtiyj6lwwrpxqm6rab4x4zmwiu6&rid=giphy.gif&ct=s",
+      img_v2: "https://media4.giphy.com/media/XEDIHHp3i8bVoEdxd7/giphy.gif?cid=ecf05e47g6atnwn7aivxgdtiyj6lwwrpxqm6rab4x4zmwiu6&rid=giphy.gif&ct=s",
     colors: ["#f73434", "#3b0107"],
   },
   {

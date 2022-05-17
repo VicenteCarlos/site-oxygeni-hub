@@ -1,14 +1,4 @@
 import { StyledMain } from "./style";
-import {
-  DiJsBadge,
-  DiJavascript,
-  DiCss3,
-  DiPython,
-  DiReact,
-  DiAngularSimple,
-  DiMysql,
-  DiJava,
-} from "react-icons/di";
 import { motion } from "framer-motion";
 import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
 import { useModal } from "../../providers/ModalProvider";
@@ -36,85 +26,20 @@ export const Opportunities = () => {
             alt="illustration"
           />
           <div className="icons">
-            <section>
+            {configModal.map((item, i) => (
+              <section>
               <figure id="js">
-                <DiJsBadge className="js" />
+                <img src={item.img_v1} alt={`logo_${item.title}`} className={item.title}/>
                 <button onClick={() => {
                   setModalIsOpen(!modalIsOpen)
-                  setModalConfig(configModal[0])
+                  setModalConfig(configModal[i])
                 }}>
-                  <figcaption id="nameBackGroundColorJS">JavaScript</figcaption>
+                  <figcaption id="nameBackGroundColorJS">{item.title}</figcaption>
                 </button>
               </figure>
             </section>
 
-            <section>
-              <figure id="html5">
-                <DiJavascript className="html5" />
-                <button>
-                  <figcaption id="nameBackGroundColorHTML">HTML5</figcaption>
-                </button>
-              </figure>
-            </section>
-
-            <section>
-              <figure id="css3">
-                <DiCss3 className="css3" />
-                <button>
-                  <figcaption id="nameBackGroundColorCSS">CSS3</figcaption>
-                </button>
-              </figure>
-            </section>
-
-            <section>
-              <figure id="python3">
-                <DiPython className="python3" />
-                <button>
-                  <figcaption id="nameBackGroundColorPython">Python</figcaption>
-                </button>
-              </figure>
-            </section>
-
-            <section>
-              <figure id="react">
-                <DiReact className="react" />
-                <button>
-                  <figcaption id="nameBackGroundColorReact">React</figcaption>
-                </button>
-              </figure>
-            </section>
-
-            <section>
-              <figure id="angular">
-                <DiAngularSimple className="angular" />
-                <button onClick={() => {
-                  setModalIsOpen(!modalIsOpen)
-                  setModalConfig(configModal[1])
-                }}>
-                  <figcaption id="nameBackGroundColorAngular">
-                    Angular
-                  </figcaption>
-                </button>
-              </figure>
-            </section>
-
-            <section>
-              <figure id="mysql">
-                <DiMysql className="mysql" />
-                <button>
-                  <figcaption id="nameBackGroundColorMySql">MySql</figcaption>
-                </button>
-              </figure>
-            </section>
-
-            <section>
-              <figure id="java">
-                <DiJava className="java" />
-                <button>
-                  <figcaption id="nameBackGroundColorJava">Java</figcaption>
-                </button>
-              </figure>
-            </section>
+            ))}
           </div>
         </section>
       </div>

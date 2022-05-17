@@ -34,7 +34,6 @@ export const StyledMain = styled.main`
         
     .s-1 {
 
-      
 
       display: flex;
       flex-direction: column;
@@ -103,8 +102,8 @@ export const StyledMain = styled.main`
           }
 
           figure {
-            .js {
-              color: #ffa500;
+            .JavaScript {
+              color: #F58131;
               width: 3rem;
               height: 50px;
             }
@@ -177,13 +176,14 @@ export const StyledMain = styled.main`
       }
 
       #nameBackGroundColorJS {
-        background-color: #ffa500;
+        background-color: #F58131;
         border-radius: 25px;
-        border: 3px dashed #ffa500;
+        border: 3px dashed #F58131;
+        color: white;
       }
 
       #nameBackGroundColorJS:hover {
-        color: #ffa500;
+        color: #F58131;
         background-color: white;
         transition: 0.5s;
       }
