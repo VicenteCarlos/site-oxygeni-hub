@@ -157,10 +157,10 @@ const configModal = [
     colors: ["#E8B928"],
   },
   {
-    title: "JavaScript",
+    title: "Java",
     description:
       "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
-    img: "https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47g928228v56njootqkbrl7afxxqeug12emvdy3vbe&rid=giphy.gif&ct=s",
+    img_v1: "https://cdn.discordapp.com/attachments/584885695341002772/975898599898636308/java.png",
     colors: ["#E8B928"],
   },
 ];
