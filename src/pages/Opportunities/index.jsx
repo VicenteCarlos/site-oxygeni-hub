@@ -12,10 +12,11 @@ import {
 import { motion } from "framer-motion";
 import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
 import { useModal } from "../../providers/ModalProvider";
+import {configModal} from "../../assets/js/mocks"
 
 export const Opportunities = () => {
   const { setPage } = useDiscoverPage();
-  const { modalIsOpen, setModalIsOpen } = useModal();
+  const { modalIsOpen, setModalIsOpen, setModalConfig } = useModal();
 
   setPage("opportunities");
 
@@ -38,7 +39,10 @@ export const Opportunities = () => {
             <section>
               <figure id="js">
                 <DiJsBadge className="js" />
-                <button>
+                <button onClick={() => {
+                  setModalIsOpen(!modalIsOpen)
+                  setModalConfig(configModal[0])
+                }}>
                   <figcaption id="nameBackGroundColorJS">JavaScript</figcaption>
                 </button>
               </figure>
@@ -83,7 +87,10 @@ export const Opportunities = () => {
             <section>
               <figure id="angular">
                 <DiAngularSimple className="angular" />
-                <button onClick={() => setModalIsOpen(!modalIsOpen)}>
+                <button onClick={() => {
+                  setModalIsOpen(!modalIsOpen)
+                  setModalConfig(configModal[1])
+                }}>
                   <figcaption id="nameBackGroundColorAngular">
                     Angular
                   </figcaption>

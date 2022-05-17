@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledMain = styled.main`
   height: 1200px;
-  display: ${props => props.modalIsOpen ? "none" : "initial"}
+  display: ${props => props.modalIsOpen ? "none" : "initial"};
   
   .s-1 {
     background-color: blue;
@@ -19,10 +19,11 @@ export const StyledMain = styled.main`
     }
 
     p {
-      width: 300px;
+      width: 400px;
       text-align: center;
       font-size: 19px;
       margin-top: 30px;
+      line-height: 30px;
     }
 
     @media (min-width: 768px) {

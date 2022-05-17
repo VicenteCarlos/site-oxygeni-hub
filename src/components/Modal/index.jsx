@@ -2,27 +2,20 @@ import { useModal } from "../../providers/ModalProvider";
 import { StyledMain } from "./style";
 
 const Modal = () => {
-  const { modalIsOpen, setModalIsOpen } = useModal();
+  const { modalIsOpen, setModalIsOpen, modalConfig } = useModal();
 
   return (
-    <StyledMain>
+    <StyledMain modalConfig={modalConfig}>
       <div>
-       <button onClick={() => setModalIsOpen(!modalIsOpen)}>X</button>
+        <button onClick={() => setModalIsOpen(!modalIsOpen)}>X</button>
         <figure>
-          <img src="https://code4coders.files.wordpress.com/2017/03/angular-js.png" alt="language" />
-          <figcaption>Angular</figcaption>
+          <img src={modalConfig.img} alt={modalConfig.title} />
+          <figcaption>{modalConfig.title}</figcaption>
         </figure>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum in,
-          doloribus et harum cupiditate debitis? Dolore, dignissimos quibusdam
-          exercitationem neque porro sint saepe voluptatem iusto necessitatibus
-          repudiandae praesentium excepturi? Fugiat.
-        </p>
+        <p>{modalConfig.description}</p>
       </div>
     </StyledMain>
   );
 };
-
-
 
 export { Modal };

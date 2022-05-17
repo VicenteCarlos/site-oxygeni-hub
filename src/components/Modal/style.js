@@ -3,7 +3,7 @@ import styled from "styled-components"
 const StyledMain = styled.main`
   width: 100vw;
   height: 100vh;
-  background-color: #3b0107;
+  background-color: ${props => props.modalConfig.colors[1]};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,17 +21,17 @@ const StyledMain = styled.main`
     align-items: center;
     flex-direction: column;
     text-align: center;
-    border: 5px solid #f73434;
+    border: 5px solid ${props => props.modalConfig.colors[0]};
     font-family: 'Montserrat', sans-serif;
 
     button {
-        color: #f73434;
+        color: ${props => props.modalConfig.colors[0]};
         background: none;
         font-weight: bold;
         border: none;
         position: relative;
-        top: 1.5rem;
-        left: 6.8rem;
+        top: -3rem;
+        left: 6.5rem;
         font-size: 25px;
         cursor: pointer;
     }
@@ -42,7 +42,7 @@ const StyledMain = styled.main`
       }
 
       figcaption {
-        color: #f73434;
+        color: ${props => props.modalConfig.colors[0]};
         font-weight: bold;
         font-size: 20px;
         padding-bottom: 2rem;
@@ -50,7 +50,7 @@ const StyledMain = styled.main`
     }
 
     p {
-      background-color: #f73434;
+      background-color: ${props => props.modalConfig.colors[0]};
       color: white;
       padding: 15px;
       border-radius: 15px;
@@ -64,8 +64,8 @@ const StyledMain = styled.main`
 
     p:hover {
       background-color: white;
-      color: #f73434;
-      border-color: #f73434;
+      color: ${props => props.modalConfig.colors[1]};
+      border-color: ${props => props.modalConfig.colors[1]};
       transition: 0.7s;
     }
   }
@@ -75,8 +75,8 @@ const StyledMain = styled.main`
       width: 60vw;
 
       button {
-        left: 12rem;
-        top: 0.3rem;
+        left: 12.5rem;
+        top: -6rem;
       }
     }
   }
@@ -86,8 +86,8 @@ const StyledMain = styled.main`
       width: 40vw;
 
       button {
-        left: 12srem;
-        top: 0.2rem;
+        left: 12rem;
+        top: -6rem;
       }
     }
   }
@@ -98,7 +98,7 @@ const StyledMain = styled.main`
 
       button {
         left: 10rem;
-        top: 0.2rem;
+        top: -5rem;
       }
     }
   }
@@ -109,6 +109,7 @@ const StyledMain = styled.main`
 
       button {
         left: 10.5rem;
+        bottom: 1rem;
       }
     }
   }
