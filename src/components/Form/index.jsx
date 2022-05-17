@@ -22,28 +22,28 @@ const Form = () => {
     <ThemeProvider theme={themeForm}>
       <StyledForm onSubmit={handleSubmit(formSubmit)}>
         <TextField
-          label={"Name"}
+          label={"Name: "}
           margin="dense"
           variant="filled"
           color="grey"
           {...register("name")}
         />
         <TextField
-          label={"Email"}
+          label={"Email: "}
           margin="dense"
           variant="filled"
           color="grey"
           {...register("email")}
         />
         <TextField
-          label={"Telefone"}
+          label={"Telefone: "}
           margin="dense"
           variant="filled"
           color="grey"
           {...register("tel")}
         />
         <TextField
-          label={"Anexar Portfólio"}
+          label={"Anexar Portfólio: "}
           margin="dense"
           variant="filled"
           color="grey"
