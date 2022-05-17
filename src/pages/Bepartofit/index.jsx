@@ -1,10 +1,15 @@
 import { Form } from "../../components";
 import { StyledMain, SectionInfos } from "./style"
 import { ThemeProvider } from "styled-components";
+import {motion} from "framer-motion"
 
 const Bepartofit = () => (
-  <StyledMain>
-   
+  <StyledMain
+    as={motion.main}
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    transition={{duration: 0.5}}
+  >
     <SectionInfos>
     <div className="box">
       <div className = "informacoes">
