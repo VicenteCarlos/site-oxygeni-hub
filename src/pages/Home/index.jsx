@@ -2,12 +2,12 @@ import { StyledMain } from "./style";
 import { Cards } from "../../components";
 import { Itens } from "../../js";
 import { AnimatePresence, motion } from "framer-motion";
-import {useModal} from "../../providers/ModalProvider"
+import { useModal } from "../../providers/ModalProvider";
 
 const whatDo = new Array(3).fill(0);
 
 const Home = () => {
-  const {modalIsOpen} = useModal()
+  const { modalIsOpen } = useModal();
 
   return (
     <AnimatePresence>
@@ -20,10 +20,13 @@ const Home = () => {
         exit={{ opacity: 0, transition: { duration: 0.5 } }}
       >
         <motion.section className="s-1">
-          <img src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png" alt="oxygeni" />
+          <img
+            src="https://cdn.discordapp.com/attachments/691321430586949762/974717805859577906/unknown.png"
+            alt="oxygeni"
+          />
           <p>
-            Iniciativa que surgiu para viabilizar projetos de inovação por meio do
-            conhecimento e conexões.
+            Iniciativa que surgiu para viabilizar projetos de inovação por meio
+            do conhecimento e conexões.
           </p>
         </motion.section>
         <section className="s-2">
@@ -34,10 +37,8 @@ const Home = () => {
               ))}
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
+              Uma iniciativa que surgiu para viabilizar projetos de inovação por
+              meio do conhecimento e conexões
             </p>
           </div>
           <img
@@ -49,14 +50,14 @@ const Home = () => {
         <section className="s-3">
           <h2>Nossos Produtos</h2>
           <div>
-              {Itens.map((item, i) => (
-                <Cards key={i} item={item} />
-              ))}
+            {Itens.map((item, i) => (
+              <Cards key={i} item={item} />
+            ))}
           </div>
         </section>
       </StyledMain>
     </AnimatePresence>
   );
-}
+};
 
 export { Home };
