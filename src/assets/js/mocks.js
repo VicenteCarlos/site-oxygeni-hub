@@ -122,46 +122,60 @@ const configModal = [
     colors: ["#E8B928", "#6b5514"],
   },
   {
+    title: "Html5",
+    description:
+      "HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML.",
+      img_v1:"https://cdn.discordapp.com/attachments/584885695341002772/975512399933235300/732212.png",
+      img_v2: "https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif",
+    colors: ["#E5532D", "#772d1a"],
+  },
+  {
+    title: "Cs3",
+    description:
+      "CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web. Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.",
+      img_v1:"https://cdn.discordapp.com/attachments/584885695341002772/975512501594755082/732190.png",
+      img_v2: "https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif",
+    colors: ["#0574BC", "#044268"],
+  },
+  {
+    title: "Python",
+    description:
+      "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.",
+      img_v1:"https://cdn.discordapp.com/attachments/584885695341002772/975512053374668850/Python-icon.png",
+      img_v2: "https://media0.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif?cid=ecf05e47fdwca4rl5le3n6kxekr4j6zkr22yuwf0aud4cp9b&rid=giphy.gif&ct=s",
+    colors: ["#825DCD", "#44316d"],
+  },
+  {
+    title: "React",
+    description:
+      "O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
+      img_v1: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" , 
+      img_v2: "https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif",
+    colors: ["#02DBFF", "#004854"],
+  },
+  {
     title: "Angular",
     description:
       "Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu. ",
+      img_v1: "https://cdn.icon-icons.com/icons2/2415/PNG/512/angularjs_original_logo_icon_146649.png", 
       img_v2: "https://media4.giphy.com/media/XEDIHHp3i8bVoEdxd7/giphy.gif?cid=ecf05e47g6atnwn7aivxgdtiyj6lwwrpxqm6rab4x4zmwiu6&rid=giphy.gif&ct=s",
     colors: ["#f73434", "#3b0107"],
   },
   {
-    title: "JavaScript",
+    title: "Mysql",
     description:
-      "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
-    img: "https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47g928228v56njootqkbrl7afxxqeug12emvdy3vbe&rid=giphy.gif&ct=s",
-    colors: ["#E8B928"],
-  },
-  {
-    title: "JavaScript",
-    description:
-      "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
-    img: "https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47g928228v56njootqkbrl7afxxqeug12emvdy3vbe&rid=giphy.gif&ct=s",
-    colors: ["#E8B928"],
-  },
-  {
-    title: "JavaScript",
-    description:
-      "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
-    img: "https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47g928228v56njootqkbrl7afxxqeug12emvdy3vbe&rid=giphy.gif&ct=s",
-    colors: ["#E8B928"],
-  },
-  {
-    title: "JavaScript",
-    description:
-      "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
-    img: "https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47g928228v56njootqkbrl7afxxqeug12emvdy3vbe&rid=giphy.gif&ct=s",
-    colors: ["#E8B928"],
+      "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.",
+    img_v1: "https://cdn.discordapp.com/attachments/584885695341002772/975512051902480475/528260.png",  
+    img_v2: "https://media1.giphy.com/media/clujppfQ8lyWSYHwRB/giphy.gif?cid=ecf05e47rbjnq3exxjndthg7uk35y0kvyh1j0zxzrr8kkzq9&rid=giphy.gif&ct=s",
+    colors: ["#003557", "#00121e"],
   },
   {
     title: "Java",
     description:
-      "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
-    img_v1: "https://cdn.discordapp.com/attachments/584885695341002772/975898599898636308/java.png",
-    colors: ["#E8B928"],
+      "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems.",
+    img_v1:"https://cdn-icons-png.flaticon.com/512/226/226777.png",  
+    img_v2: "https://media4.giphy.com/media/l0IyjpNF63Xc0Kdiw/giphy.gif?cid=ecf05e47prq4jtkgf8r5mw2r2gqlx0baayo4mcajosz0drl7&rid=giphy.gif&ct=s",
+    colors: ["#FE6600", "#772f00"],
   },
 ];
 

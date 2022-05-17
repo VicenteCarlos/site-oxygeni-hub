@@ -19,26 +19,28 @@ export const Opportunities = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="container">
-        <h2>Construa as suas habilidades de desenvolvedor</h2>
+        <hgroup>
+         <h2>Construa as suas habilidades de desenvolvedor</h2>
+         <h3>Curso oferecidos pelo Oxygeni-Hub</h3>
+        </hgroup>
         <section className="s-1">
           <img
-            src="https://cdn.discordapp.com/attachments/651404729766772763/966410443159650444/Wavy_Bus-15_Single-01.jpg"
+            src="https://media1.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif?cid=ecf05e47uklntv2pa1u8wm6t5vow1f60jyqufww563vhhpaa&rid=giphy.gif&ct=s"
             alt="illustration"
           />
           <div className="icons">
             {configModal.map((item, i) => (
               <section>
-              <figure id="js">
+              <figure>
                 <img src={item.img_v1} alt={`logo_${item.title}`} className={item.title}/>
                 <button onClick={() => {
                   setModalIsOpen(!modalIsOpen)
                   setModalConfig(configModal[i])
                 }}>
-                  <figcaption id="nameBackGroundColorJS">{item.title}</figcaption>
+                  <figcaption id={item.title}>{item.title}</figcaption>
                 </button>
               </figure>
             </section>
-
             ))}
           </div>
         </section>

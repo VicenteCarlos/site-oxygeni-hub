@@ -29,16 +29,14 @@ const StyledMain = styled.main`
         background: none;
         font-weight: bold;
         border: none;
-        position: relative;
-        top: 0.5rem;
-        left: 6.5rem;
+        margin: 1rem 1rem 0 auto;
         font-size: 25px;
         cursor: pointer;
     }
 
     figure {
       img {
-        width: 150px;
+        width: 110px;
       }
 
       figcaption {
@@ -86,7 +84,7 @@ const StyledMain = styled.main`
       width: 40vw;
 
       p {
-        font-size: 17px;
+        font-size: 15px;
         line-height: 25px;
       }
 

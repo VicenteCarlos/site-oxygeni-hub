@@ -13,6 +13,8 @@ export const StyledMain = styled.main`
     flex-direction: column;
     align-items: center;
     width: 100%;
+   
+    
 
     h2 {
       color: #1c2f5d;
@@ -21,8 +23,15 @@ export const StyledMain = styled.main`
       font-family: "Plus Jakarta Sans", sans-serif;
     }
 
+    h3{
+      text-align: center;
+      margin:20px 0;
+      color:#1C327C;
+      font-size:25px;
+    }
+
     img {
-      width: 20rem;
+      width: 22rem;
       position: relative;
     }
 
@@ -108,153 +117,153 @@ export const StyledMain = styled.main`
               height: 50px;
             }
 
-            .java {
+            .Java {
               color: #ff6347;
-              width: 3rem;
-              height: 50px;
+              width: 2.5rem;
+              height: 40px;
             }
 
-            .html5 {
+            .Html5 {
               color: #ff5722;
-              width: 3rem;
-              height: 50px;
+              width: 2.5rem;
+              height: 40px;
             }
 
-            .css3 {
+            .Cs3 {
               color: #0070ba;
-              width: 3rem;
-              height: 50px;
+              width: 2.5rem;
+              height: 40px;
             }
 
-            .python3 {
+            .Python {
               color: #6a5acd;
-              width: 3rem;
-              height: 50px;
+              width: 2.5rem;
+              height: 40px;
             }
 
-            .react {
+            .React {
               color: #5ccfee;
-              width: 3rem;
-              height: 50px;
+              width: 2.5rem;
+              height: 40px;
             }
 
-            .angular {
+            .Angular {
               color: #d62f34;
-              width: 3rem;
-              height: 50px;
+              width: 2.5rem;
+              height: 40px;
             }
 
-            .mysql {
-               width: 3rem; 
-              height: 50px;
+            .Mysql {
+               width: 2.5rem; 
+              height: 40px;
             }
 
-            .python3,
-            .angular,
-            .react {
+            .Python,
+            .Angular,
+            .React {
               margin: 0;
             }
 
-            .mysql,
-            .java {
+            .Mysql,
+            .Java {
               margin: 0;
             }
           }
         }
       }
 
-      #nameBackGroundColorCSS {
+      #Cs3 {
         background-color: #0070ba;
         border-radius: 25px;
         border: 3px dashed #0070ba;
       }
 
-      #nameBackGroundColorCSS:hover {
+      #Cs3:hover {
         color: #0070ba;
         background-color: white;
         transition: 0.5s;
       }
 
-      #nameBackGroundColorJS {
+      #JavaScript {
         background-color: #F58131;
         border-radius: 25px;
         border: 3px dashed #F58131;
         color: white;
       }
 
-      #nameBackGroundColorJS:hover {
+      #JavaScript:hover {
         color: #F58131;
         background-color: white;
         transition: 0.5s;
       }
 
-      #nameBackGroundColorPython {
+      #Python {
         background-color: #6a5acd;
         border-radius: 25px;
         border: 3px dashed #6a5acd;
       }
 
-      #nameBackGroundColorPython:hover {
+      #Python:hover {
         color: #6a5acd;
         background-color: white;
         transition: 0.5s;
       }
 
-      #nameBackGroundColorReact {
+      #React {
         background-color: #61dbfb;
         border-radius: 35px;
         border: 3px dashed #61dbfb;
       }
 
-      #nameBackGroundColorReact:hover {
+      #React:hover {
         color: #61dbfb;
         background-color: white;
         transition: 0.5s;
       }
 
-      #nameBackGroundColorAngular {
+      #Angular {
         background-color: red;
         border-radius: 35px;
         border: 3px dashed red;
       }
 
-      #nameBackGroundColorAngular:hover {
+      #Angular:hover {
         color: red;
         background-color: white;
         transition: 0.5s;
       }
 
-      #nameBackGroundColorMySql {
+      #Mysql {
         background-color: #0075bf;
         border-radius: 35px;
         border: 3px dashed #0075bf;
       }
 
-      #nameBackGroundColorMySql:hover {
+      #Mysql:hover {
         color: #0075bf;
         background-color: white;
         transition: 0.5s;
       }
 
-      #nameBackGroundColorJava {
+      #Java {
         background-color: #ff6347;
         border-radius: 35px;
         border: 3px dashed #ff6347;
       }
 
-      #nameBackGroundColorJava:hover {
+      #Java:hover {
         color: #ff6347;
         background-color: white;
         transition: 0.5s;
       }
 
-      #nameBackGroundColorHTML {
+      #Html5 {
         background-color: #e34c26;
         border-radius: 35px;
         border: 3px dashed #e34c26;
       }
 
-      #nameBackGroundColorHTML:hover {
+      #Html5:hover {
         color: #e34c26;
         background-color: white;
         transition: 0.5s;
