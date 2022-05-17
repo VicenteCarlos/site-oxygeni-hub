@@ -6,8 +6,18 @@ const Modal = () => {
   const { modalIsOpen, setModalIsOpen, modalConfig } = useModal();
 
   return (
-    <StyledMain modalConfig={modalConfig}>
-      <div>
+    <StyledMain 
+      as={motion.main}
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      transition={{duration: 1}}
+      modalConfig={modalConfig}
+    >
+      <motion.div
+        initial={{y: "-100vh"}}
+        animate={{y:"0vh"}}
+        transition={{type: "spring", stiffness: 80, duration: 3}}
+      >
         <motion.button
           whileHover={{ scale: 1.5 }}
           onClick={() => setModalIsOpen(!modalIsOpen)}
@@ -19,7 +29,7 @@ const Modal = () => {
           <figcaption>{modalConfig.title}</figcaption>
         </figure>
         <p>{modalConfig.description}</p>
-      </div>
+      </motion.div>
     </StyledMain>
   );
 };

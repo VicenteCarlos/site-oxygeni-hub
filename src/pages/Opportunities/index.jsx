@@ -4,7 +4,7 @@ import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
 import { useModal } from "../../providers/ModalProvider";
 import {configModal} from "../../assets/js/mocks"
 
-export const Opportunities = () => {
+const Opportunities = () => {
   const { setPage } = useDiscoverPage();
   const { modalIsOpen, setModalIsOpen, setModalConfig } = useModal();
 
@@ -48,3 +48,5 @@ export const Opportunities = () => {
     </StyledMain>
   );
 };
+
+export { Opportunities }

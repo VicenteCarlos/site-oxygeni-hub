@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 
-
 export const StyledMain = styled.main`
 
 
@@ -13,8 +12,8 @@ export const StyledMain = styled.main`
   }
   :root {
     font-size: 62.5%;
-    --heith-carrosel: 20rem;
-    --width-carrosel: 20rem;
+    --heith-carrosel: 10rem;
+    --width-carrosel: 10rem;
   
     --destop-heith-carrosel: 25rem;
     --destop-width-carrosel: 50rem;
@@ -188,7 +187,7 @@ export const StyledMain = styled.main`
     width: 5rem;
     height: 5rem;
   }
-  
+  /*
   @media screen and (min-width: 818px) {
     .carrosel {
       display: flex;
@@ -216,7 +215,7 @@ export const StyledMain = styled.main`
     ul li + li {
       margin-left: 2rem;
     }
-  }
+  }*/
   
 
 

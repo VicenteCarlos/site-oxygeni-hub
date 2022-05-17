@@ -19,13 +19,7 @@ const Itens = [
   },
 ];
 
-const Li = [
-  { text: "Home", route: "" },
-  { text: "Sobre Nós", route: "aboutus" },
-  { text: "Faça parte", route: "bepartofit" },
-  { text: "Eventos" },
-  { text: "Oportunidades", route: "opportunities" },
-];
+
 
 const Components = {
   squad_inovacao: [
@@ -106,7 +100,7 @@ const li = {
   "/": "Home",
   "/aboutus": "Sobre Nós",
   "/bepartofit": "Faça Parte",
-  "#": "Eventos",
+  "/events": "Eventos",
   "/opportunities": "Oportunidades",
 };
 
@@ -179,4 +173,4 @@ const configModal = [
   },
 ];
 
-export { li, Components, Li, Itens, configModal };
+export { li, Components, Itens, configModal };

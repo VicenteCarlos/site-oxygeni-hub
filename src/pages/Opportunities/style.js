@@ -26,8 +26,9 @@ export const StyledMain = styled.main`
     h3{
       text-align: center;
       margin:20px 0;
-      color:#1C327C;
+      color:#1C2F5D;
       font-size:25px;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     img {
@@ -114,7 +115,7 @@ export const StyledMain = styled.main`
             .JavaScript {
               color: #F58131;
               width: 3rem;
-              height: 50px;
+              height: 45px;
             }
 
             .Java {
@@ -144,7 +145,7 @@ export const StyledMain = styled.main`
             .React {
               color: #5ccfee;
               width: 2.5rem;
-              height: 40px;
+              height: 35px;
             }
 
             .Angular {
