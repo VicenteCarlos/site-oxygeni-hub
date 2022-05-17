@@ -37,6 +37,9 @@ export const StyledMain = styled.main`
     svg + svg {
       margin-left: 2rem;
     }
+    @media screen and (max-width: 970px){
+      display: none;
+    }
   }
 
   /* ===================container1=================== */
@@ -74,12 +77,7 @@ export const StyledMain = styled.main`
         overflow: hidden;
         height: calc(+var(--destop-heith-carrosel)+12rem);
         width: var(--width-carrosel);
-
-        img {
-          object-fit: cover;
-          height:300px;
-          width: 300px;
-        }
+        margin-right: 2rem;
 
         .conteudoCarrossel {
           display: flex;
@@ -94,39 +92,39 @@ export const StyledMain = styled.main`
             justify-items: center;
             align-items: center;
             margin-bottom: 2rem;
+            margin-top: 2rem;
             background-color: white;
-          }
+            img {
+              object-fit: cover;
+              height: 150px;
+              width: 150px;
+            }
 
-          h3 {
-            font-size: 1.4rem;
-            font-family: "PT Sans", sans-serif;
-            margin: 15px 0;
-          }
+            h3 {
+              font-size: 1.4rem;
+              font-family: "PT Sans", sans-serif;
+              margin: 15px 0;
+            }
 
-          a {
-            color: #294079;
-            text-decoration: none;
-            font-size: 1.4rem;
-            font-weight: 700;
-            border: 0.2rem solid #294079;
-            border-radius: 2.5rem;
-            padding: 0.5rem;
-            text-transform: uppercase;
-            font-family: "PT Sans", sans-serif;
-          }
+            a {
+              color: #294079;
+              text-decoration: none;
+              font-size: 1.4rem;
+              font-weight: 700;
+              border: 0.2rem solid #294079;
+              border-radius: 2.5rem;
+              padding: 0.5rem;
+              text-transform: uppercase;
+              font-family: "PT Sans", sans-serif;
+            }
 
-          button {
-            height: auto;
-            width: auto;
-          }
+            .data {
+              display: flex;
+              align-items: center;
+              justify-items: center;
+              padding: 0 0 0 0;
+              margin: 2rem 0 0 0;
 
-          .data {
-            display: flex;
-            align-items: center;
-            justify-items: center;
-            padding: 0 0 0 0;
-            margin: 2rem 0 0 0;
-            ul {
               li {
                 font-family: "PT Sans", sans-serif;
                 text-transform: uppercase;
@@ -144,7 +142,18 @@ export const StyledMain = styled.main`
               }
             }
           }
+
+          button {
+            height: auto;
+            width: auto;
+          }
         }
+      }
+    }
+    @media screen and (max-width: 970px){
+      display: none;
+      section{
+        width: 320px;
       }
     }
   }
@@ -192,6 +201,9 @@ export const StyledMain = styled.main`
           transition: 0.2s;
         }
       }
+    }
+    @media screen and (max-width: 970px){
+      width: 320px;
     }
   }
 `;
