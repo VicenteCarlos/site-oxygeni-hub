@@ -151,7 +151,7 @@ const configModal = [
     title: "Angular",
     description:
       "Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu. ",
-      img_v1: "https://cdn.icon-icons.com/icons2/2415/PNG/512/angularjs_original_logo_icon_146649.png", 
+      img_v1: "https://cdn.discordapp.com/attachments/648677060658855955/976186854774825000/unknown.png", 
       img_v2: "https://media4.giphy.com/media/XEDIHHp3i8bVoEdxd7/giphy.gif?cid=ecf05e47g6atnwn7aivxgdtiyj6lwwrpxqm6rab4x4zmwiu6&rid=giphy.gif&ct=s",
     colors: ["#f73434", "#3b0107"],
   },
