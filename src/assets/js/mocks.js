@@ -19,33 +19,45 @@ const Itens = [
   },
 ];
 
+export const Li = [
+  { text: "Home", route: "" },
+  { text: "Sobre Nós", route: "aboutus" },
+  { text: "Faça parte" },
+  { text: "Eventos" },
+  { text: "Oportunidades", route: "opportunities" },
+];
 
-
-const Components = {
+export const Components = {
   squad_inovacao: [
     {
       name: "Laura",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/968963795626106950/InShot_20220427_165500470.jpg",
+      alt: "foto_Laura",
     },
     {
       name: "Ziellen",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/968963286085292092/InShot_20220427_165300538.jpg",
+      alt: "foto_Ziellen",
     },
     {
       name: "Andreia",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/968963617384968222/InShot_20220427_165420307.jpg",
+      alt: "foto_Andreia",
     },
     {
       name: "Rhanna",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/968962979079004210/InShot_20220427_165031179.jpg",
+      alt: "foto_Rhanna",
     },
     {
       name: "Claudinéia",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/968964153173762098/InShot_20220427_165626831.jpg",
+      alt: "foto_Claudenéia",
     },
     {
       name: "Elizabeth",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/968963974701936720/InShot_20220427_165546214.jpg",
+      alt: "foto_Elizabeth",
     },
   ],
   embaixadores: [
@@ -53,37 +65,51 @@ const Components = {
       name: "Elda",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/970079114910400582/elda.png",
       job: "Coord. CEUMA",
+      alt: "foto_Elda",
     },
     {
       name: "Elton",
-      img: "",
+      //Foto aliátoria para mudar depois!!!!!!
+      img: "https://cdn.discordapp.com/attachments/651404729766772763/966410443159650444/Wavy_Bus-15_Single-01.jpg",
       job: "Coord. CEUPI",
+      alt: "foto_Elton",
     },
   ],
   agentes: [
     {
       name: "Elves",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/970059851902357535/elves.png",
+      alt: "foto_Elves",
     },
     {
       name: "Ilgner",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/970059852149833818/ilgner.png",
+      alt: "foto_Ilgener",
     },
     {
       name: "Vitória",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/970059853949202503/vitoria.png",
+      alt: "foto_Vitória",
     },
     {
       name: "Daniel",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/970059851633950781/daniel.png",
+      alt: "foto_Daniel",
     },
     {
       name: "Rafael",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/970059852485374032/rafael.png",
+      alt: "foto_Rafael",
     },
     {
       name: "Vicente",
       img: "https://cdn.discordapp.com/attachments/651404729766772763/970059853332611082/vicente.png",
+      alt: "foto_Vicente",
+    },
+    {
+      name: "Matheus",
+      img: "https://cdn.discordapp.com/attachments/594283388974923777/973749890381402112/IMG_20220503_182125.jpg",
+      alt: "foto_Matheus",
     },
   ],
   apoio: [
@@ -151,7 +177,7 @@ const configModal = [
     title: "Angular",
     description:
       "Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu. ",
-      img_v1: "https://cdn.icon-icons.com/icons2/2415/PNG/512/angularjs_original_logo_icon_146649.png", 
+      img_v1: "https://cdn.discordapp.com/attachments/648677060658855955/976186854774825000/unknown.png", 
       img_v2: "https://media4.giphy.com/media/XEDIHHp3i8bVoEdxd7/giphy.gif?cid=ecf05e47g6atnwn7aivxgdtiyj6lwwrpxqm6rab4x4zmwiu6&rid=giphy.gif&ct=s",
     colors: ["#f73434", "#3b0107"],
   },
@@ -173,4 +199,4 @@ const configModal = [
   },
 ];
 
-export { li, Components, Itens, configModal };
+export { li, Itens, configModal };
