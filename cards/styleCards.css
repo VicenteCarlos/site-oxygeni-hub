@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cards .card {
+  width: 25rem;
+  height: 25rem;
+  position: relative;
+  margin: 3rem 1rem;
+  padding: 2rem 1.5rem;
+  background-color: #1c2f5d;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+  font-family: "Noto Sans", sans-serif;
+}
+.cards .card:hover {
+  height: 50rem;
+}
+.card .instituicao {
+  position: relative;
+  width: 27rem;
+  height: 27rem;
+  margin-top: 5rem;
+  top: -6rem;
+  left: 2rem;
+  z-index: 1;
+}
+.card .instituicao img {
+  max-width: 90%;
+}
+
+.info {
+  color: white;
+  font-size: 1.6rem;
+  visibility: hidden;
+  transition-delay: 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cards .card:hover .info {
+  visibility: visible;
+  transition-delay: 0.3s;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .break {
+    display: flex;
+    
+  }
+}

@@ -7,14 +7,16 @@ height: 1800px;
     flex-direction: column;
     justify-content: space-around;
     border-top: 10px;
-    /* margin:50px 0px 20px 0px; */
     align-items: center;
-    @media screen and (min-width:768px){
+
+    
+    @media screen and (min-width:1024px){
             display:flex;
             flex-direction: row;
             width:100vw;  
+            
     }
-   }
+   
     .conteudo{
         margin:150px 0 0 0;
         display:flex;
@@ -40,13 +42,15 @@ height: 1800px;
             border-radius: 15px;
             text-align: center;
         }
-    }
+    
     .imgmain{
         width:210px;
         height:180px;
         border: 3px solid #1C2F5D;
         padding:10px;
     }  
+
+}
 
 .container2 { 
     display:flex;
@@ -199,4 +203,5 @@ height: 1800px;
         }
    
     }
+}
 `
