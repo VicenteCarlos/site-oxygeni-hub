@@ -3,11 +3,19 @@ import { Cards } from "../../components";
 import { Itens } from "../../assets/js/mocks";
 import { AnimatePresence, motion } from "framer-motion";
 import { useModal } from "../../providers/ModalProvider";
+import { useEffect } from "react"
+import Aos from "aos";
+import "aos/dist/aos.css"
+
 
 const whatDo = new Array(3).fill(0);
 
 const Home = () => {
   const { modalIsOpen } = useModal();
+
+  useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
 
   return (
     <AnimatePresence>
@@ -47,7 +55,7 @@ const Home = () => {
             width="550px"
           />
         </section>
-        <section className="s-3">
+        <section className="s-3" data-aos="fade-right">
           <h2>Nossos Produtos</h2>
           <div>
             {Itens.map((item, i) => (
