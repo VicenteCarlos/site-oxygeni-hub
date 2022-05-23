@@ -171,7 +171,7 @@ const Events = () => (
         </section>
         <section className="container2">
           <div className="conteudo2">
-            <h2>Para ficar ligado nosso conteudo acesse o Simpla e instagram</h2>
+            <h2>Para ficar ligado nosso conteúdo acesse o Sympla e instagram</h2>
             <div className="redesSociais">
               <a
                 className="sympla"
