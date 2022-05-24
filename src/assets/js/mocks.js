@@ -2,7 +2,7 @@ const Itens = [
   {
     title: "Oxygeni na Estrada",
     img: "https://cdn.discordapp.com/attachments/650830975433179140/968703655039631410/naEstrada.png",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    text: "Visitas estratégicas, articulações e palestras sobre ecossistema de inovação, conduzido pelo Squad de Inovação.",
     alt: "naEstradaLogo",
   },
   {
