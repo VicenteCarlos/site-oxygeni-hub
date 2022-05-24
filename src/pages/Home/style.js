@@ -144,6 +144,15 @@ export const StyledMain = styled.main`
       text-align: center;
     }
 
+    @media (min-width: 320px) {
+      .cards-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow-x: scroll;
+      }
+    }
+
     @media (min-width: 768px) {
       div {
         display: flex;
@@ -157,6 +166,11 @@ export const StyledMain = styled.main`
 
     @media (min-width: 1200px) {
       height: 80vh;
+      
+      .cards-container {
+        overflow-x: initial;
+        justify-content: center;
+      }
     }
     
   }

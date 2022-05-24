@@ -57,7 +57,7 @@ const Home = () => {
         </section>
         <section className="s-3" data-aos="fade-right">
           <h2>Nossos Produtos</h2>
-          <div>
+          <div className="cards-container">
             {Itens.map((item, i) => (
               <Cards key={i} item={item} />
             ))}

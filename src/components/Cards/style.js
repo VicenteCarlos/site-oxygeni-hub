@@ -8,17 +8,16 @@ export const Container = styled.div`
   align-items: center;
   background-color: #1c2f5d;
   color: white;
-  width: 220px;
-  height: 390px;
+  width: 300px;
+  height: 190px;
   border-radius: 15px;
   padding: 25px;
   box-shadow: 2px 5px 2px #000;
   cursor: pointer;
 
-  
-
   h3 {
     font-size: 27px;
+    display: none;
   }
 
   div {
@@ -31,13 +30,15 @@ export const Container = styled.div`
     img {
       width: 100%;
       border-radius: 15px;
-      margin: 35px 0;
+      margin-top: 35px;
     }
 
     p {
-      font-size: 18px;
+      font-size: 12px;
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      width: 9rem;
+      margin-top: 15px;
     }
   }
 
@@ -46,6 +47,7 @@ export const Container = styled.div`
     height: 390px;
     flex-direction: column;
     box-shadow: 6px 6px 6px #000;
+    display: initial;
   } 
 `;
 

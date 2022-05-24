@@ -6,7 +6,7 @@ export const StyledFooter = styled.footer`
   display: ${props => props.modalIsOpen ? "none" : "flex"};
   height: 260px;
   flex-direction: column;
-  margin-top: 800px;
+  margin-top: 210px;
 
   .logoRodape {
     display: none;
@@ -79,11 +79,10 @@ export const StyledFooter = styled.footer`
   }
 
   @media (min-width: 768px) {
-    margin-top: 920px;
+    margin-top: 40px;
   }
 
   @media (min-width: 1200px) {
-    margin-top: 620px;
 
     .botao-1 {
       display: none;
