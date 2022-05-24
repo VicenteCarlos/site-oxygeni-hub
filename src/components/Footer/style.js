@@ -6,7 +6,7 @@ export const StyledFooter = styled.footer`
   display: ${props => props.modalIsOpen ? "none" : "flex"};
   height: 260px;
   flex-direction: column;
-  margin-top: 210px;
+  margin-top: ${props => props.page === "opportunities" ? "200px" : "20px"};;
 
   .logoRodape {
     display: none;

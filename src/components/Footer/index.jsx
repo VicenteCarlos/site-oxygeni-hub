@@ -2,8 +2,7 @@ import { StyledFooter } from "./style";
 import { useDiscoverPage } from "../../providers/DiscoverPageProvider";
 import { useModal } from "../../providers/ModalProvider";
 
-const Footer = () => {
-  const { page } = useDiscoverPage();
+const Footer = ({ page }) => {
   const { modalIsOpen } = useModal();
 
   return (

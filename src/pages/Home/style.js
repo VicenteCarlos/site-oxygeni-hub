@@ -19,16 +19,16 @@ export const StyledMain = styled.main`
     }
 
     p {
-      width: 400px;
+      width: 200px;
       text-align: center;
-      font-size: 19px;
+      font-size: 17px;
       margin-top: 30px;
       line-height: 30px;
     }
 
     @media (min-width: 768px) {
       p {
-        font-size: 22px;
+        width: 400px;
       }
     }
   }
@@ -133,7 +133,7 @@ export const StyledMain = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 140vh;
+    height: 60vh;
 
     h2 {
       color: #1c2f5d;

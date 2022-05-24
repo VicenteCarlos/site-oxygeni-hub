@@ -48,6 +48,14 @@ export const Container = styled.div`
     flex-direction: column;
     box-shadow: 6px 6px 6px #000;
     display: initial;
+    
+    div {
+      p {
+        font-size: 18px;
+        width: 16rem;
+        margin-top: 20px;
+      }
+    }
   } 
 `;
 

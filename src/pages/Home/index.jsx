@@ -3,6 +3,7 @@ import { Cards } from "../../components";
 import { Itens } from "../../assets/js/mocks";
 import { AnimatePresence, motion } from "framer-motion";
 import { useModal } from "../../providers/ModalProvider";
+import { useDiscoverPage } from "../../providers/DiscoverPageProvider"
 import { useEffect } from "react"
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -12,6 +13,9 @@ const whatDo = new Array(3).fill(0);
 
 const Home = () => {
   const { modalIsOpen } = useModal();
+  const { setPage } = useDiscoverPage()
+
+  setPage("home")
 
   useEffect(() => {
     Aos.init({duration: 2000})

@@ -4,10 +4,12 @@ import { GlobalStyle } from "./style";
 import { useMenu } from "./providers/MenuProvider";
 import { AnimatePresence } from "framer-motion";
 import { useModal } from "./providers/ModalProvider";
+import { useDiscoverPage } from "./providers/DiscoverPageProvider"
 
 export const App = () => {
   const { menuIsOpen } = useMenu();
   const { modalIsOpen } = useModal();
+  const { page } = useDiscoverPage()
 
   return (
     <>
@@ -18,7 +20,7 @@ export const App = () => {
         <AnimatePresence>
           <Header />
           <Rotas />
-          <Footer />
+          <Footer page={page}/>
         </AnimatePresence>
       )}
       {modalIsOpen && <Modal />}
