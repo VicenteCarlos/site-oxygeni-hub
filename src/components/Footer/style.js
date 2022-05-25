@@ -30,6 +30,9 @@ export const StyledFooter = styled.footer`
     font-weight: bold;
     margin: 15px auto 0 auto;
     text-decoration: none;
+    a {
+      text-decoration: none;
+    }
   }
 
   .redes {

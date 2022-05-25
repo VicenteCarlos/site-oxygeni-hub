@@ -7,7 +7,7 @@ const Footer = ({ page }) => {
 
   return (
     <StyledFooter modalIsOpen={modalIsOpen} page={page}>
-      <button className="botao-1">fale conosco!</button>
+      <button className="botao-1"><a href="/bepartofit">fale conosco!</a></button>
       <div className="redes">
         <a href="https://www.linkedin.com/company/oxygeni-hub/" target="_blank">
           <img
@@ -34,7 +34,7 @@ const Footer = ({ page }) => {
         <h2 className="frase">FAÇA PARTE</h2>
         <h2 className="frase-2">FAÇA PARTE</h2>
         <h2 className="frase-3">FAÇA PARTE</h2>
-        <button className="botao" > <a href="/bepartofit">fale conosco!</a></button>
+        <button className="botao" ><a href="/bepartofit">fale conosco!</a></button>
       </div>
     </StyledFooter>
   );
