@@ -199,6 +199,8 @@ export const StyledMain = styled.main`
           padding: 1rem;
           border-radius: 5rem;
           transition: 0.2s;
+          color: #294079;
+
         }
       }
     }
