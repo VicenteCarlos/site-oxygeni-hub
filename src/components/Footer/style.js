@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer`
   height: 260px;
   flex-direction: column;
   margin-top: ${props => props.page === "opportunities" ? "200px" : "20px"};;
-
+  text-decoration: none;
   .logoRodape {
     display: none;
   }
@@ -29,16 +29,18 @@ export const StyledFooter = styled.footer`
     cursor: pointer;
     font-weight: bold;
     margin: 15px auto 0 auto;
+    text-decoration: none;
   }
 
   .redes {
     display: flex;
     align-items: flex-end;
-    margin: 30px auto;
+    margin: auto;
+    padding: 5rem;
 
     a {
-      margin: 0 -30px;
-
+      margin: auto;
+      text-decoration: none;
       .redesocial {
         width: 140px;
         cursor: pointer;
@@ -65,6 +67,7 @@ export const StyledFooter = styled.footer`
     }
 
     .botao {
+      
       background-color: #eff0f2;
       padding: 15px;
       border: none;
@@ -75,11 +78,16 @@ export const StyledFooter = styled.footer`
       color: #1c2f5d;
       cursor: pointer;
       font-weight: bold;
+      text-decoration: none;
+      a {
+        text-decoration: none;
+      }
+      
     }
   }
 
   @media (min-width: 768px) {
-    margin-top: 40px;
+    margin-top: 0;
   }
 
   @media (min-width: 1200px) {
