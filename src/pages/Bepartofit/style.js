@@ -7,6 +7,10 @@ const StyledMain = styled.main`
     flex-direction: column;
     align-items: center;
 
+    @media(max-width:768px){
+     height:120vh;
+    }
+
 `
 
 const SectionInfos = styled.section`

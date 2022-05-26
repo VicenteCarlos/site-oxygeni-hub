@@ -7,7 +7,7 @@ const Footer = ({ page }) => {
 
   return (
     <StyledFooter modalIsOpen={modalIsOpen} page={page}>
-      <button className="botao-1"><a href="/bepartofit">fale conosco!</a></button>
+      {/* <button className="botao-1"><a href="/bepartofit">fale conosco!</a></button> */}
     <div className="box">
       <div className="redes">
         <a href="https://www.linkedin.com/company/oxygeni-hub/" target="_blank">

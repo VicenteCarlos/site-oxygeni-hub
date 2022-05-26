@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer`
   padding: 5px;
   display: ${props => props.modalIsOpen ? "none" : "flex"};
   height: 200px;
-  margin-top: ${props => props.page === "opportunities" ? "200px" : "20px"};;
+  margin-top: ${props => props.page === "opportunities" ? "200px" : "0px"};;
   text-decoration: none;
   .logoRodape {
     display: none;
@@ -18,7 +18,7 @@ export const StyledFooter = styled.footer`
     display: none;
   }
 
-  .botao-1 {
+  /* .botao-1 {
     background-color: #eff0f2;
     padding: 15px;
     border: none;
@@ -33,11 +33,11 @@ export const StyledFooter = styled.footer`
     margin: 15px auto 0 auto;
     text-decoration: none;
    
-  }
+  } */
 
   .redes {
-    width: 320px;
-    height: 320px;
+    width: auto;
+    height: auto;
     display: flex;
     margin: 0 16px;
     /* padding: 5rem; */
