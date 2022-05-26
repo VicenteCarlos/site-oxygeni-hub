@@ -26,7 +26,7 @@ export const StyledMain = styled.main`
       margin:20px 0;
       color:#1C2F5D;
       font-size:25px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Nunito Sans', sans-serif;
     }
 
     img {
@@ -63,7 +63,9 @@ export const StyledMain = styled.main`
           border-radius: 0.5rem;
           padding: 0.6rem;
           color: white;
-          font-family: "DM Sans", sans-serif;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 800;
+          text-transform: uppercase;
           margin: 0px;
         }
 

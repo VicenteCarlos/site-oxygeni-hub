@@ -24,6 +24,7 @@ export const StyledMain = styled.main`
       font-size: 17px;
       margin-top: 30px;
       line-height: 30px;
+      font-family: 'Nunito Sans', sans-serif;
     }
 
     @media (min-width: 768px) {
@@ -54,17 +55,23 @@ export const StyledMain = styled.main`
           color: #1c2f5d;
           font-size: 32px;
           line-height: 19px;
-          font-family: Arial, Helvetica, sans-serif;
+          font-family: 'Nunito Sans', sans-serif;
+          
+         
         }
 
         .h2-2 {
           color: white;
           -webkit-text-stroke: 1px #747f9c;
+          font-family: 'Nunito Sans', sans-serif;
+         
         }
 
         .h2-3 {
           color: transparent;
           -webkit-text-stroke: 1px #858fa7;
+          font-family: 'Nunito Sans', sans-serif;
+          
         }
       }
 
@@ -77,6 +84,7 @@ export const StyledMain = styled.main`
         padding: 60px 50px 50px 50px;
         background-color: #eff0f2;
         border-radius: 15px;
+        font-family: 'Nunito Sans', sans-serif;
       }
     }
 
@@ -137,7 +145,7 @@ export const StyledMain = styled.main`
 
     h2 {
       color: #1c2f5d;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Nunito Sans', sans-serif;
       font-size: 30px;
       margin-left: 3%;
       margin-top: 20px;
@@ -161,6 +169,8 @@ export const StyledMain = styled.main`
 
       h2 {
         font-size: 45px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
       }
     }
 

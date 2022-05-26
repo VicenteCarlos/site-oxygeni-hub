@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const StyledMain = styled.main`
     background-color: #294079;
-    height: 200vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

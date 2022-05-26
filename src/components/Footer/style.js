@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
   background-color: #1c2f5d;
-  padding: 20px;
-  display: ${props => props.modalIsOpen ? "none" : "flex"};
-  height: 260px;
+  display:flex;
   flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  display: ${props => props.modalIsOpen ? "none" : "flex"};
+  height: 200px;
   margin-top: ${props => props.page === "opportunities" ? "200px" : "20px"};;
   text-decoration: none;
   .logoRodape {
@@ -30,29 +32,31 @@ export const StyledFooter = styled.footer`
     font-weight: bold;
     margin: 15px auto 0 auto;
     text-decoration: none;
-    a {
-      text-decoration: none;
-    }
+   
   }
 
   .redes {
+    width: 320px;
+    height: 320px;
     display: flex;
-    align-items: flex-end;
-    margin: auto;
-    padding: 5rem;
-
+    margin: 0 16px;
+    /* padding: 5rem; */
+    
     a {
       margin: auto;
       text-decoration: none;
       .redesocial {
         width: 140px;
         cursor: pointer;
+        align-items: center;
+        
       }
     }
   }
 
   .conteudo {
     display: none;
+    
 
     h2 {
       color: #ffffff;
@@ -72,6 +76,7 @@ export const StyledFooter = styled.footer`
     .botao {
       
       background-color: #eff0f2;
+      margin-top: 16px;
       padding: 15px;
       border: none;
       width: 210px;
@@ -84,6 +89,7 @@ export const StyledFooter = styled.footer`
       text-decoration: none;
       a {
         text-decoration: none;
+        color:#1c2f5d;
       }
       
     }
@@ -98,11 +104,14 @@ export const StyledFooter = styled.footer`
     .botao-1 {
       display: none;
     }
-
+    .box{
+      display:flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    
     #logo {
       display: none;
       width: 200px;
-      position: relative;
       left: 1600px;
       bottom: 50px;
     }
@@ -116,12 +125,21 @@ export const StyledFooter = styled.footer`
 
     .conteudo {
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
+      
       flex-flow: column nowrap;
-      margin-left: 170px;
-      position: relative;
+      margin: 0 200px 0 100px;
       bottom: 100px;
       display: initial;
     }
+    .redes{
+      height: 100px;
+      width: 200px;
+      padding: 10px;
+      .redesocial{
+        width: 200px;
+      }
+    }
+    }  
   }
 `;
