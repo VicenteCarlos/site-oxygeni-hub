@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMain = styled.main`
-  height: 850px;
+  height: 1000px;
   display: ${props => props.modalIsOpen ? "none" : "flex"};
   flex-direction: column;
   justify-content: center;
