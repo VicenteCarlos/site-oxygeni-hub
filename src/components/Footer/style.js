@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer`
   padding: 5px;
   display: ${props => props.modalIsOpen ? "none" : "flex"};
   height: 200px;
-  margin-top: ${props => props.page === "opportunities" ? "200px" : "0px"};;
+  margin-top: ${props => props.page === "opportunities" ? "130px" : "0px"};;
   text-decoration: none;
   .logoRodape {
     display: none;
