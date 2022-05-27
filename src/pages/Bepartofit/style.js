@@ -6,6 +6,7 @@ const StyledMain = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 7rem;
 
     @media(max-width:768px){
      height:120vh;
